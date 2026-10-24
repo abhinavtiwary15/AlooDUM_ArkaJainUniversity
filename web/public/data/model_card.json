@@ -1,0 +1,1441 @@
+{
+  "cohortSummary": {
+    "totalPatients": 100,
+    "totalNights": 1181,
+    "baseStrictPrevalencePct": 10.5,
+    "strictEventsCount": 124,
+    "suPatientsCount": 18,
+    "suStrictEventsCount": 32,
+    "conformalMarginMgDl": 37.59,
+    "conformalCoveragePct": 90.0,
+    "conformalMargin80MgDl": 26.26,
+    "conformalCoverage80Pct": 80.0,
+    "conformalMargin90MgDl": 37.59,
+    "conformalCoverage90Pct": 90.0,
+    "alertThreshold80Spec": 0.126,
+    "alertThresholdModerate": 0.063,
+    "ppvAt80SpecPct": 30.6,
+    "alertsPerPtWkAt80Spec": 1.8,
+    "nnwAt80Spec": 3.27
+  },
+  "ablationTable": [
+    {
+      "group": "A: Simple Rule (G<110 & Slope<-5)",
+      "model": "Clinical Rule (No ML)",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.660 [0.574-0.739]",
+      "auprcCi": "0.240 [0.151-0.362]",
+      "brier": 0.295,
+      "bssPct": -213.7,
+      "ece": 0.331,
+      "sens80SpecPct": 46.0,
+      "ppv80SpecPct": 22.0,
+      "nnw80Spec": 4.54,
+      "alertsPerPtWk": 1.54
+    },
+    {
+      "group": "A: Simple Rule (G<110 & Slope<-5)",
+      "model": "Clinical Rule (No ML)",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.576 [0.438-0.758]",
+      "auprcCi": "0.211 [0.137-0.404]",
+      "brier": 0.315,
+      "bssPct": -179.2,
+      "ece": 0.334,
+      "sens80SpecPct": 28.1,
+      "ppv80SpecPct": 23.1,
+      "nnw80Spec": 4.33,
+      "alertsPerPtWk": 1.11
+    },
+    {
+      "group": "B_cgm_only",
+      "model": "LogisticRegression",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.770 [0.695-0.836]",
+      "auprcCi": "0.405 [0.228-0.581]",
+      "brier": 0.078,
+      "bssPct": 16.5,
+      "ece": 0.013,
+      "sens80SpecPct": 60.5,
+      "ppv80SpecPct": 27.4,
+      "nnw80Spec": 3.65,
+      "alertsPerPtWk": 1.62
+    },
+    {
+      "group": "B_cgm_only",
+      "model": "LogisticRegression",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.735 [0.549-0.858]",
+      "auprcCi": "0.285 [0.142-0.454]",
+      "brier": 0.107,
+      "bssPct": 5.2,
+      "ece": 0.052,
+      "sens80SpecPct": 43.8,
+      "ppv80SpecPct": 28.0,
+      "nnw80Spec": 3.57,
+      "alertsPerPtWk": 1.42
+    },
+    {
+      "group": "B_cgm_only",
+      "model": "LightGBM",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.770 [0.700-0.834]",
+      "auprcCi": "0.366 [0.229-0.536]",
+      "brier": 0.081,
+      "bssPct": 14.1,
+      "ece": 0.017,
+      "sens80SpecPct": 58.1,
+      "ppv80SpecPct": 26.4,
+      "nnw80Spec": 3.79,
+      "alertsPerPtWk": 1.62
+    },
+    {
+      "group": "B_cgm_only",
+      "model": "LightGBM",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.706 [0.544-0.833]",
+      "auprcCi": "0.262 [0.141-0.434]",
+      "brier": 0.11,
+      "bssPct": 2.5,
+      "ece": 0.067,
+      "sens80SpecPct": 50.0,
+      "ppv80SpecPct": 27.6,
+      "nnw80Spec": 3.62,
+      "alertsPerPtWk": 1.64
+    },
+    {
+      "group": "C_cgm_meds",
+      "model": "LogisticRegression",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.757 [0.684-0.823]",
+      "auprcCi": "0.364 [0.210-0.542]",
+      "brier": 0.081,
+      "bssPct": 13.4,
+      "ece": 0.014,
+      "sens80SpecPct": 62.9,
+      "ppv80SpecPct": 27.1,
+      "nnw80Spec": 3.69,
+      "alertsPerPtWk": 1.71
+    },
+    {
+      "group": "C_cgm_meds",
+      "model": "LogisticRegression",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.676 [0.492-0.806]",
+      "auprcCi": "0.259 [0.108-0.412]",
+      "brier": 0.113,
+      "bssPct": 0.2,
+      "ece": 0.064,
+      "sens80SpecPct": 28.1,
+      "ppv80SpecPct": 18.4,
+      "nnw80Spec": 5.44,
+      "alertsPerPtWk": 1.39
+    },
+    {
+      "group": "C_cgm_meds",
+      "model": "LightGBM",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.775 [0.706-0.835]",
+      "auprcCi": "0.378 [0.223-0.560]",
+      "brier": 0.081,
+      "bssPct": 14.2,
+      "ece": 0.013,
+      "sens80SpecPct": 58.1,
+      "ppv80SpecPct": 25.4,
+      "nnw80Spec": 3.93,
+      "alertsPerPtWk": 1.68
+    },
+    {
+      "group": "C_cgm_meds",
+      "model": "LightGBM",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.701 [0.548-0.814]",
+      "auprcCi": "0.241 [0.133-0.414]",
+      "brier": 0.109,
+      "bssPct": 3.1,
+      "ece": 0.032,
+      "sens80SpecPct": 46.9,
+      "ppv80SpecPct": 26.3,
+      "nnw80Spec": 3.8,
+      "alertsPerPtWk": 1.62
+    },
+    {
+      "group": "D_cgm_meds_small_static",
+      "model": "LogisticRegression",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.734 [0.659-0.803]",
+      "auprcCi": "0.333 [0.181-0.510]",
+      "brier": 0.083,
+      "bssPct": 11.3,
+      "ece": 0.016,
+      "sens80SpecPct": 55.6,
+      "ppv80SpecPct": 24.7,
+      "nnw80Spec": 4.04,
+      "alertsPerPtWk": 1.65
+    },
+    {
+      "group": "D_cgm_meds_small_static",
+      "model": "LogisticRegression",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.654 [0.456-0.793]",
+      "auprcCi": "0.248 [0.098-0.409]",
+      "brier": 0.115,
+      "bssPct": -1.7,
+      "ece": 0.081,
+      "sens80SpecPct": 21.9,
+      "ppv80SpecPct": 17.9,
+      "nnw80Spec": 5.57,
+      "alertsPerPtWk": 1.11
+    },
+    {
+      "group": "D_cgm_meds_small_static",
+      "model": "LightGBM",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.765 [0.696-0.829]",
+      "auprcCi": "0.381 [0.215-0.562]",
+      "brier": 0.081,
+      "bssPct": 13.3,
+      "ece": 0.013,
+      "sens80SpecPct": 54.8,
+      "ppv80SpecPct": 24.8,
+      "nnw80Spec": 4.03,
+      "alertsPerPtWk": 1.62
+    },
+    {
+      "group": "D_cgm_meds_small_static",
+      "model": "LightGBM",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.657 [0.496-0.789]",
+      "auprcCi": "0.246 [0.129-0.398]",
+      "brier": 0.11,
+      "bssPct": 2.2,
+      "ece": 0.039,
+      "sens80SpecPct": 31.2,
+      "ppv80SpecPct": 21.7,
+      "nnw80Spec": 4.6,
+      "alertsPerPtWk": 1.3
+    },
+    {
+      "group": "E_all_labs_full",
+      "model": "LogisticRegression",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.715 [0.637-0.784]",
+      "auprcCi": "0.297 [0.180-0.458]",
+      "brier": 0.085,
+      "bssPct": 9.7,
+      "ece": 0.008,
+      "sens80SpecPct": 49.2,
+      "ppv80SpecPct": 23.5,
+      "nnw80Spec": 4.26,
+      "alertsPerPtWk": 1.54
+    },
+    {
+      "group": "E_all_labs_full",
+      "model": "LogisticRegression",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.680 [0.511-0.806]",
+      "auprcCi": "0.249 [0.111-0.414]",
+      "brier": 0.111,
+      "bssPct": 1.5,
+      "ece": 0.061,
+      "sens80SpecPct": 21.9,
+      "ppv80SpecPct": 18.4,
+      "nnw80Spec": 5.43,
+      "alertsPerPtWk": 1.08
+    },
+    {
+      "group": "E_all_labs_full",
+      "model": "LightGBM",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.767 [0.701-0.833]",
+      "auprcCi": "0.338 [0.211-0.491]",
+      "brier": 0.083,
+      "bssPct": 11.8,
+      "ece": 0.019,
+      "sens80SpecPct": 53.2,
+      "ppv80SpecPct": 24.3,
+      "nnw80Spec": 4.12,
+      "alertsPerPtWk": 1.61
+    },
+    {
+      "group": "E_all_labs_full",
+      "model": "LightGBM",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.674 [0.517-0.802]",
+      "auprcCi": "0.249 [0.142-0.401]",
+      "brier": 0.11,
+      "bssPct": 2.7,
+      "ece": 0.038,
+      "sens80SpecPct": 37.5,
+      "ppv80SpecPct": 23.1,
+      "nnw80Spec": 4.33,
+      "alertsPerPtWk": 1.47
+    },
+    {
+      "group": "F_twin_enhanced",
+      "model": "LogisticRegression",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.784 [0.706-0.847]",
+      "auprcCi": "0.378 [0.246-0.557]",
+      "brier": 0.08,
+      "bssPct": 15.2,
+      "ece": 0.02,
+      "sens80SpecPct": 63.7,
+      "ppv80SpecPct": 27.7,
+      "nnw80Spec": 3.61,
+      "alertsPerPtWk": 1.69
+    },
+    {
+      "group": "F_twin_enhanced",
+      "model": "LogisticRegression",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.742 [0.545-0.860]",
+      "auprcCi": "0.334 [0.152-0.500]",
+      "brier": 0.11,
+      "bssPct": 2.9,
+      "ece": 0.046,
+      "sens80SpecPct": 56.2,
+      "ppv80SpecPct": 30.0,
+      "nnw80Spec": 3.33,
+      "alertsPerPtWk": 1.7
+    },
+    {
+      "group": "F_twin_enhanced",
+      "model": "LightGBM",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.783 [0.713-0.844]",
+      "auprcCi": "0.379 [0.227-0.558]",
+      "brier": 0.08,
+      "bssPct": 14.4,
+      "ece": 0.011,
+      "sens80SpecPct": 57.3,
+      "ppv80SpecPct": 27.5,
+      "nnw80Spec": 3.63,
+      "alertsPerPtWk": 1.53
+    },
+    {
+      "group": "F_twin_enhanced",
+      "model": "LightGBM",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.715 [0.553-0.829]",
+      "auprcCi": "0.300 [0.152-0.493]",
+      "brier": 0.107,
+      "bssPct": 5.3,
+      "ece": 0.045,
+      "sens80SpecPct": 53.1,
+      "ppv80SpecPct": 29.8,
+      "nnw80Spec": 3.35,
+      "alertsPerPtWk": 1.62
+    },
+    {
+      "group": "G_cgm_history",
+      "model": "LogisticRegression",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.845 [0.786-0.890]",
+      "auprcCi": "0.505 [0.327-0.660]",
+      "brier": 0.07,
+      "bssPct": 25.0,
+      "ece": 0.015,
+      "sens80SpecPct": 75.0,
+      "ppv80SpecPct": 30.6,
+      "nnw80Spec": 3.27,
+      "alertsPerPtWk": 1.8
+    },
+    {
+      "group": "G_cgm_history",
+      "model": "LogisticRegression",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.828 [0.687-0.917]",
+      "auprcCi": "0.406 [0.216-0.602]",
+      "brier": 0.095,
+      "bssPct": 15.5,
+      "ece": 0.04,
+      "sens80SpecPct": 68.8,
+      "ppv80SpecPct": 34.4,
+      "nnw80Spec": 2.91,
+      "alertsPerPtWk": 1.81
+    },
+    {
+      "group": "G_cgm_history",
+      "model": "LightGBM",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.836 [0.778-0.885]",
+      "auprcCi": "0.439 [0.287-0.600]",
+      "brier": 0.075,
+      "bssPct": 19.9,
+      "ece": 0.035,
+      "sens80SpecPct": 71.0,
+      "ppv80SpecPct": 29.8,
+      "nnw80Spec": 3.35,
+      "alertsPerPtWk": 1.75
+    },
+    {
+      "group": "G_cgm_history",
+      "model": "LightGBM",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.780 [0.621-0.887]",
+      "auprcCi": "0.362 [0.208-0.567]",
+      "brier": 0.101,
+      "bssPct": 10.3,
+      "ece": 0.044,
+      "sens80SpecPct": 56.2,
+      "ppv80SpecPct": 30.5,
+      "nnw80Spec": 3.28,
+      "alertsPerPtWk": 1.67
+    },
+    {
+      "group": "H_cgm_history_meds_static",
+      "model": "LogisticRegression",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.835 [0.773-0.882]",
+      "auprcCi": "0.427 [0.302-0.616]",
+      "brier": 0.075,
+      "bssPct": 20.0,
+      "ece": 0.019,
+      "sens80SpecPct": 75.0,
+      "ppv80SpecPct": 33.1,
+      "nnw80Spec": 3.02,
+      "alertsPerPtWk": 1.67
+    },
+    {
+      "group": "H_cgm_history_meds_static",
+      "model": "LogisticRegression",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.800 [0.621-0.901]",
+      "auprcCi": "0.374 [0.189-0.512]",
+      "brier": 0.112,
+      "bssPct": 0.8,
+      "ece": 0.064,
+      "sens80SpecPct": 75.0,
+      "ppv80SpecPct": 40.0,
+      "nnw80Spec": 2.5,
+      "alertsPerPtWk": 1.7
+    },
+    {
+      "group": "H_cgm_history_meds_static",
+      "model": "LightGBM",
+      "cohort": "All T2DM (N=100)",
+      "aurocCi": "0.828 [0.765-0.880]",
+      "auprcCi": "0.431 [0.268-0.599]",
+      "brier": 0.076,
+      "bssPct": 19.3,
+      "ece": 0.02,
+      "sens80SpecPct": 73.4,
+      "ppv80SpecPct": 30.2,
+      "nnw80Spec": 3.31,
+      "alertsPerPtWk": 1.78
+    },
+    {
+      "group": "H_cgm_history_meds_static",
+      "model": "LightGBM",
+      "cohort": "SU Subgroup (N=18, Exploratory)",
+      "aurocCi": "0.770 [0.594-0.883]",
+      "auprcCi": "0.347 [0.179-0.552]",
+      "brier": 0.102,
+      "bssPct": 9.9,
+      "ece": 0.036,
+      "sens80SpecPct": 50.0,
+      "ppv80SpecPct": 29.1,
+      "nnw80Spec": 3.44,
+      "alertsPerPtWk": 1.56
+    }
+  ],
+  "pairedDifferences": [
+    {
+      "model": "LightGBM",
+      "comparison": "C (CGM + Meds) vs B (CGM-Only)",
+      "deltaAurocCi": "+0.005 [-0.019, +0.031]",
+      "aurocSignificant": false,
+      "deltaAuprcCi": "+0.013 [-0.027, +0.047]",
+      "auprcSignificant": false,
+      "deltaBrierCi": "-0.0001 [-0.0017, +0.0015]",
+      "brierSignificant": false
+    },
+    {
+      "model": "LightGBM",
+      "comparison": "D (CGM + Meds + Small Static) vs B (CGM-Only)",
+      "deltaAurocCi": "-0.005 [-0.037, +0.028]",
+      "aurocSignificant": false,
+      "deltaAuprcCi": "+0.015 [-0.045, +0.065]",
+      "auprcSignificant": false,
+      "deltaBrierCi": "+0.0008 [-0.0019, +0.0033]",
+      "brierSignificant": false
+    },
+    {
+      "model": "LightGBM",
+      "comparison": "E (All Labs Full) vs B (CGM-Only)",
+      "deltaAurocCi": "-0.003 [-0.045, +0.035]",
+      "aurocSignificant": false,
+      "deltaAuprcCi": "-0.028 [-0.082, +0.020]",
+      "auprcSignificant": false,
+      "deltaBrierCi": "+0.0022 [-0.0009, +0.0058]",
+      "brierSignificant": false
+    },
+    {
+      "model": "LightGBM",
+      "comparison": "F (Twin-Enhanced) vs B (CGM-Only)",
+      "deltaAurocCi": "+0.013 [-0.018, +0.040]",
+      "aurocSignificant": false,
+      "deltaAuprcCi": "+0.013 [-0.045, +0.074]",
+      "auprcSignificant": false,
+      "deltaBrierCi": "-0.0003 [-0.0031, +0.0027]",
+      "brierSignificant": false
+    },
+    {
+      "model": "LightGBM",
+      "comparison": "G (CGM + History) vs B (CGM-Only)",
+      "deltaAurocCi": "+0.066 [+0.032, +0.103]",
+      "aurocSignificant": true,
+      "deltaAuprcCi": "+0.073 [+0.020, +0.118]",
+      "auprcSignificant": true,
+      "deltaBrierCi": "-0.0054 [-0.0093, -0.0019]",
+      "brierSignificant": true
+    },
+    {
+      "model": "LightGBM",
+      "comparison": "H (CGM + History + Meds + Static) vs B (CGM-Only)",
+      "deltaAurocCi": "+0.058 [+0.024, +0.095]",
+      "aurocSignificant": true,
+      "deltaAuprcCi": "+0.065 [-0.002, +0.124]",
+      "auprcSignificant": false,
+      "deltaBrierCi": "-0.0049 [-0.0088, -0.0013]",
+      "brierSignificant": true
+    },
+    {
+      "model": "LogisticRegression",
+      "comparison": "C (CGM + Meds) vs B (CGM-Only)",
+      "deltaAurocCi": "-0.013 [-0.045, +0.021]",
+      "aurocSignificant": false,
+      "deltaAuprcCi": "-0.041 [-0.081, +0.003]",
+      "auprcSignificant": false,
+      "deltaBrierCi": "+0.0029 [+0.0005, +0.0056]",
+      "brierSignificant": true
+    },
+    {
+      "model": "LogisticRegression",
+      "comparison": "D (CGM + Meds + Small Static) vs B (CGM-Only)",
+      "deltaAurocCi": "-0.036 [-0.073, +0.003]",
+      "aurocSignificant": false,
+      "deltaAuprcCi": "-0.072 [-0.117, -0.016]",
+      "auprcSignificant": true,
+      "deltaBrierCi": "+0.0049 [+0.0017, +0.0088]",
+      "brierSignificant": true
+    },
+    {
+      "model": "LogisticRegression",
+      "comparison": "E (All Labs Full) vs B (CGM-Only)",
+      "deltaAurocCi": "-0.055 [-0.107, -0.005]",
+      "aurocSignificant": true,
+      "deltaAuprcCi": "-0.108 [-0.160, -0.025]",
+      "auprcSignificant": true,
+      "deltaBrierCi": "+0.0065 [+0.0016, +0.0131]",
+      "brierSignificant": true
+    },
+    {
+      "model": "LogisticRegression",
+      "comparison": "F (Twin-Enhanced) vs B (CGM-Only)",
+      "deltaAurocCi": "+0.014 [-0.027, +0.055]",
+      "aurocSignificant": false,
+      "deltaAuprcCi": "-0.027 [-0.090, +0.071]",
+      "auprcSignificant": false,
+      "deltaBrierCi": "+0.0013 [-0.0033, +0.0062]",
+      "brierSignificant": false
+    },
+    {
+      "model": "LogisticRegression",
+      "comparison": "G (CGM + History) vs B (CGM-Only)",
+      "deltaAurocCi": "+0.075 [+0.037, +0.114]",
+      "aurocSignificant": true,
+      "deltaAuprcCi": "+0.100 [+0.046, +0.148]",
+      "auprcSignificant": true,
+      "deltaBrierCi": "-0.0080 [-0.0123, -0.0042]",
+      "brierSignificant": true
+    },
+    {
+      "model": "LogisticRegression",
+      "comparison": "H (CGM + History + Meds + Static) vs B (CGM-Only)",
+      "deltaAurocCi": "+0.065 [+0.028, +0.103]",
+      "aurocSignificant": true,
+      "deltaAuprcCi": "+0.022 [-0.050, +0.128]",
+      "auprcSignificant": false,
+      "deltaBrierCi": "-0.0032 [-0.0086, +0.0040]",
+      "brierSignificant": false
+    }
+  ],
+  "forecasterBenchmark": [
+    {
+      "horizon": "1-Hour (23:00)",
+      "model": "Blended Synchronised Forecaster",
+      "maeMgDl": 14.83,
+      "maeCi": [
+        13.54,
+        16.14
+      ],
+      "rmseMgDl": 20.33,
+      "rmseCi": [
+        18.59,
+        22.01
+      ],
+      "nNights": 1072
+    },
+    {
+      "horizon": "1-Hour (23:00)",
+      "model": "Patient Hist Overnight Profile",
+      "maeMgDl": 24.62,
+      "maeCi": [
+        22.18,
+        27.07
+      ],
+      "rmseMgDl": 33.39,
+      "rmseCi": [
+        30.16,
+        36.66
+      ],
+      "nNights": 1072
+    },
+    {
+      "horizon": "1-Hour (23:00)",
+      "model": "Persistence Baseline",
+      "maeMgDl": 18.48,
+      "maeCi": [
+        16.81,
+        20.06
+      ],
+      "rmseMgDl": 24.28,
+      "rmseCi": [
+        22.25,
+        26.02
+      ],
+      "nNights": 1072
+    },
+    {
+      "horizon": "3-Hour (01:00)",
+      "model": "Blended Synchronised Forecaster",
+      "maeMgDl": 19.35,
+      "maeCi": [
+        17.32,
+        21.39
+      ],
+      "rmseMgDl": 27.32,
+      "rmseCi": [
+        24.31,
+        30.12
+      ],
+      "nNights": 1071
+    },
+    {
+      "horizon": "3-Hour (01:00)",
+      "model": "Patient Hist Overnight Profile",
+      "maeMgDl": 21.69,
+      "maeCi": [
+        19.38,
+        24.22
+      ],
+      "rmseMgDl": 30.74,
+      "rmseCi": [
+        27.6,
+        33.68
+      ],
+      "nNights": 1071
+    },
+    {
+      "horizon": "3-Hour (01:00)",
+      "model": "Persistence Baseline",
+      "maeMgDl": 31.97,
+      "maeCi": [
+        28.5,
+        35.54
+      ],
+      "rmseMgDl": 43.07,
+      "rmseCi": [
+        38.17,
+        47.75
+      ],
+      "nNights": 1071
+    },
+    {
+      "horizon": "6-Hour (04:00)",
+      "model": "Blended Synchronised Forecaster",
+      "maeMgDl": 16.05,
+      "maeCi": [
+        14.21,
+        17.91
+      ],
+      "rmseMgDl": 22.78,
+      "rmseCi": [
+        20.03,
+        25.43
+      ],
+      "nNights": 1071
+    },
+    {
+      "horizon": "6-Hour (04:00)",
+      "model": "Patient Hist Overnight Profile",
+      "maeMgDl": 17.18,
+      "maeCi": [
+        15.24,
+        19.13
+      ],
+      "rmseMgDl": 24.03,
+      "rmseCi": [
+        21.36,
+        26.54
+      ],
+      "nNights": 1071
+    },
+    {
+      "horizon": "6-Hour (04:00)",
+      "model": "Persistence Baseline",
+      "maeMgDl": 36.98,
+      "maeCi": [
+        32.38,
+        42.02
+      ],
+      "rmseMgDl": 50.02,
+      "rmseCi": [
+        43.3,
+        56.71
+      ],
+      "nNights": 1071
+    }
+  ],
+  "credibility75Ppv": [
+    {
+      "model": "LightGBM_B_cgm_only",
+      "threshold": 0.455,
+      "sensAt75PpvPct": 16.9,
+      "specAt75PpvPct": 99.3,
+      "ppvAchievedPct": 75.0,
+      "nnwAchieved": 1.33,
+      "requiredLrPlus": 25.57,
+      "observedLrPlus": 25.57
+    },
+    {
+      "model": "LightGBM_D_cgm_meds_small_static",
+      "threshold": 0.465,
+      "sensAt75PpvPct": 12.9,
+      "specAt75PpvPct": 99.6,
+      "ppvAchievedPct": 80.0,
+      "nnwAchieved": 1.25,
+      "requiredLrPlus": 25.57,
+      "observedLrPlus": 34.1
+    },
+    {
+      "model": "LightGBM_G_cgm_history",
+      "threshold": 0.475,
+      "sensAt75PpvPct": 17.7,
+      "specAt75PpvPct": 99.4,
+      "ppvAchievedPct": 78.6,
+      "nnwAchieved": 1.27,
+      "requiredLrPlus": 25.57,
+      "observedLrPlus": 31.26
+    },
+    {
+      "model": "LightGBM_H_cgm_history_meds_static",
+      "threshold": 0.475,
+      "sensAt75PpvPct": 15.3,
+      "specAt75PpvPct": 99.4,
+      "ppvAchievedPct": 76.0,
+      "nnwAchieved": 1.32,
+      "requiredLrPlus": 25.57,
+      "observedLrPlus": 26.99
+    }
+  ],
+  "outlierSensitivity": {
+    "top10PctEventSharePct": 48.0,
+    "suBaselineRatePct": 18.6,
+    "suExclTop1RatePct": 12.9,
+    "suTop1PatientId": "2066",
+    "suTop1EventFraction": "9/13 (69.2%)",
+    "softenedRiskRatio": 1.95
+  },
+  "conformal200Splits": {
+    "fold_results": [
+      {
+        "fold": 1,
+        "tau_hours": 3.112,
+        "n_train_pts": 80,
+        "n_val_pts": 20,
+        "mae_blend_1h": 15.54,
+        "mae_pers_1h": 20.08,
+        "mae_prof_1h": 28.21,
+        "mae_blend_3h": 21.46,
+        "mae_pers_3h": 40.44,
+        "mae_prof_3h": 25.31,
+        "mae_blend_6h": 20.2,
+        "mae_pers_6h": 48.96,
+        "mae_prof_6h": 21.84
+      },
+      {
+        "fold": 2,
+        "tau_hours": 3.62,
+        "n_train_pts": 80,
+        "n_val_pts": 20,
+        "mae_blend_1h": 14.25,
+        "mae_pers_1h": 18.86,
+        "mae_prof_1h": 18.94,
+        "mae_blend_3h": 18.06,
+        "mae_pers_3h": 31.41,
+        "mae_prof_3h": 17.24,
+        "mae_blend_6h": 15.25,
+        "mae_pers_6h": 31.5,
+        "mae_prof_6h": 15.69
+      },
+      {
+        "fold": 3,
+        "tau_hours": 3.066,
+        "n_train_pts": 81,
+        "n_val_pts": 19,
+        "mae_blend_1h": 15.32,
+        "mae_pers_1h": 18.52,
+        "mae_prof_1h": 25.23,
+        "mae_blend_3h": 22.0,
+        "mae_pers_3h": 31.17,
+        "mae_prof_3h": 24.87,
+        "mae_blend_6h": 18.67,
+        "mae_pers_6h": 34.95,
+        "mae_prof_6h": 20.17
+      },
+      {
+        "fold": 4,
+        "tau_hours": 3.351,
+        "n_train_pts": 80,
+        "n_val_pts": 20,
+        "mae_blend_1h": 18.59,
+        "mae_pers_1h": 20.67,
+        "mae_prof_1h": 28.92,
+        "mae_blend_3h": 24.31,
+        "mae_pers_3h": 31.03,
+        "mae_prof_3h": 27.1,
+        "mae_blend_6h": 20.36,
+        "mae_pers_6h": 38.12,
+        "mae_prof_6h": 21.07
+      },
+      {
+        "fold": 5,
+        "tau_hours": 3.378,
+        "n_train_pts": 79,
+        "n_val_pts": 21,
+        "mae_blend_1h": 13.59,
+        "mae_pers_1h": 15.68,
+        "mae_prof_1h": 20.37,
+        "mae_blend_3h": 17.57,
+        "mae_pers_3h": 26.57,
+        "mae_prof_3h": 19.48,
+        "mae_blend_6h": 15.78,
+        "mae_pers_6h": 31.67,
+        "mae_prof_6h": 16.65
+      }
+    ],
+    "conformal_splits_summary": {
+      "overall_80": {
+        "mean": 79.93,
+        "range": [
+          70.79,
+          86.66
+        ],
+        "ci95": [
+          74.17,
+          85.82
+        ]
+      },
+      "overall_90": {
+        "mean": 89.84,
+        "range": [
+          83.39,
+          94.13
+        ],
+        "ci95": [
+          85.03,
+          93.72
+        ]
+      },
+      "h1_80": {
+        "mean": 84.19,
+        "range": [
+          76.27,
+          90.92
+        ],
+        "ci95": [
+          78.08,
+          89.75
+        ]
+      },
+      "h1_90": {
+        "mean": 93.86,
+        "range": [
+          88.98,
+          97.43
+        ],
+        "ci95": [
+          89.62,
+          96.45
+        ]
+      },
+      "h3_80": {
+        "mean": 75.57,
+        "range": [
+          64.58,
+          83.64
+        ],
+        "ci95": [
+          68.5,
+          82.35
+        ]
+      },
+      "h3_90": {
+        "mean": 86.3,
+        "range": [
+          78.31,
+          92.25
+        ],
+        "ci95": [
+          80.48,
+          91.11
+        ]
+      },
+      "h6_80": {
+        "mean": 80.04,
+        "range": [
+          71.53,
+          86.8
+        ],
+        "ci95": [
+          74.09,
+          86.17
+        ]
+      },
+      "h6_90": {
+        "mean": 89.35,
+        "range": [
+          82.37,
+          94.35
+        ],
+        "ci95": [
+          84.24,
+          93.52
+        ]
+      },
+      "cond_low_80": {
+        "mean": 89.13,
+        "range": [
+          83.11,
+          94.81
+        ],
+        "ci95": [
+          84.99,
+          93.14
+        ]
+      },
+      "cond_low_90": {
+        "mean": 95.18,
+        "range": [
+          91.83,
+          98.07
+        ],
+        "ci95": [
+          92.45,
+          97.21
+        ]
+      },
+      "q80_margin_mean": 28.11,
+      "q90_margin_mean": 41.38
+    }
+  },
+  "groupGRobustness": {
+    "identical_subset_ge1_prior_night": {
+      "auc_a": 0.748,
+      "auc_b": 0.829,
+      "diff_auc": 0.08,
+      "diff_auc_ci": [
+        0.041,
+        0.126
+      ],
+      "prc_a": 0.317,
+      "prc_b": 0.4,
+      "diff_prc": 0.084,
+      "diff_prc_ci": [
+        0.026,
+        0.131
+      ],
+      "brier_a": 0.075,
+      "brier_b": 0.069,
+      "diff_brier": -0.005,
+      "diff_brier_ci": [
+        -0.009,
+        -0.002
+      ]
+    },
+    "event_concentration_sensitivity": {
+      "top1_excluded": {
+        "auc_a": 0.75,
+        "auc_b": 0.822,
+        "diff_auc": 0.072,
+        "diff_auc_ci": [
+          0.035,
+          0.112
+        ],
+        "prc_a": 0.295,
+        "prc_b": 0.367,
+        "diff_prc": 0.072,
+        "diff_prc_ci": [
+          0.016,
+          0.122
+        ],
+        "brier_a": 0.079,
+        "brier_b": 0.074,
+        "diff_brier": -0.005,
+        "diff_brier_ci": [
+          -0.009,
+          -0.002
+        ]
+      },
+      "top2_excluded": {
+        "auc_a": 0.746,
+        "auc_b": 0.817,
+        "diff_auc": 0.071,
+        "diff_auc_ci": [
+          0.031,
+          0.112
+        ],
+        "prc_a": 0.293,
+        "prc_b": 0.358,
+        "diff_prc": 0.065,
+        "diff_prc_ci": [
+          0.01,
+          0.111
+        ],
+        "brier_a": 0.074,
+        "brier_b": 0.07,
+        "diff_brier": -0.004,
+        "diff_brier_ci": [
+          -0.007,
+          -0.001
+        ]
+      },
+      "top10pct_excluded": {
+        "auc_a": 0.708,
+        "auc_b": 0.773,
+        "diff_auc": 0.065,
+        "diff_auc_ci": [
+          0.012,
+          0.118
+        ],
+        "prc_a": 0.183,
+        "prc_b": 0.188,
+        "diff_prc": 0.004,
+        "diff_prc_ci": [
+          -0.048,
+          0.047
+        ],
+        "brier_a": 0.056,
+        "brier_b": 0.055,
+        "diff_brier": -0.001,
+        "diff_brier_ci": [
+          -0.003,
+          0.002
+        ]
+      }
+    },
+    "stratified_by_prior_nights": [
+      {
+        "bin": "1 prior night",
+        "nights": 100,
+        "events": 10,
+        "event_rate": 10.0,
+        "b_auroc": 0.813,
+        "g_auroc": 0.797,
+        "b_auprc": 0.3,
+        "g_auprc": 0.336
+      },
+      {
+        "bin": "2-3 prior nights",
+        "nights": 197,
+        "events": 18,
+        "event_rate": 9.1,
+        "b_auroc": 0.721,
+        "g_auroc": 0.875,
+        "b_auprc": 0.283,
+        "g_auprc": 0.435
+      },
+      {
+        "bin": "4+ prior nights",
+        "nights": 784,
+        "events": 73,
+        "event_rate": 9.3,
+        "b_auroc": 0.745,
+        "g_auroc": 0.823,
+        "b_auprc": 0.348,
+        "g_auprc": 0.423
+      }
+    ],
+    "cold_start_night_0": [
+      {
+        "model": "Group B (CGM-only)",
+        "auroc": 0.863,
+        "auprc": 0.673,
+        "brier": 0.146,
+        "bss": 0.177
+      },
+      {
+        "model": "Group C (CGM + Meds)",
+        "auroc": 0.842,
+        "auprc": 0.634,
+        "brier": 0.151,
+        "bss": 0.15
+      },
+      {
+        "model": "Group D (CGM + Meds + Small Static)",
+        "auroc": 0.846,
+        "auprc": 0.653,
+        "brier": 0.149,
+        "bss": 0.156
+      }
+    ]
+  },
+  "repeatedGroupKFoldHeadline": {
+    "n_repeats": 20,
+    "n_nights_history": 1081,
+    "n_events_history": 101,
+    "model": "LogisticRegression (Regularized C=0.1, Platt Sigmoid Calibrated)",
+    "group_b_cgm_only": {
+      "auroc": {
+        "mean": 0.736,
+        "min": 0.707,
+        "max": 0.753,
+        "std": 0.011
+      },
+      "auprc": {
+        "mean": 0.354,
+        "min": 0.252,
+        "max": 0.392,
+        "std": 0.03
+      },
+      "brier": {
+        "mean": 0.073,
+        "min": 0.071,
+        "max": 0.078,
+        "std": 0.002
+      }
+    },
+    "group_g_cgm_history": {
+      "auroc": {
+        "mean": 0.832,
+        "min": 0.824,
+        "max": 0.84,
+        "std": 0.004
+      },
+      "auprc": {
+        "mean": 0.476,
+        "min": 0.417,
+        "max": 0.496,
+        "std": 0.016
+      },
+      "brier": {
+        "mean": 0.065,
+        "min": 0.064,
+        "max": 0.068,
+        "std": 0.001
+      }
+    },
+    "differences_g_minus_b": {
+      "delta_auroc": {
+        "mean": 0.097,
+        "min": 0.082,
+        "max": 0.121,
+        "std": 0.009
+      },
+      "delta_auprc": {
+        "mean": 0.123,
+        "min": 0.087,
+        "max": 0.165,
+        "std": 0.018
+      },
+      "delta_brier": {
+        "mean": -0.008,
+        "min": -0.01,
+        "max": -0.006,
+        "std": 0.001
+      }
+    },
+    "paired_bootstrap_ci": {
+      "diff_auc": 0.0963,
+      "diff_auc_ci": [
+        0.0512,
+        0.1488
+      ],
+      "diff_prc": 0.1184,
+      "diff_prc_ci": [
+        0.0472,
+        0.191
+      ],
+      "diff_brier": -0.008,
+      "diff_brier_ci": [
+        -0.0141,
+        -0.0037
+      ]
+    },
+    "repeats_detail": [
+      {
+        "repeat": 1,
+        "seed": 1000,
+        "auc_b": 0.7426853909880784,
+        "auc_g": 0.8376439684784807,
+        "diff_auc": 0.09495857749040226,
+        "prc_b": 0.353620955998913,
+        "prc_g": 0.4893828568323963,
+        "diff_prc": 0.13576190083348327,
+        "brier_b": 0.07310683793918157,
+        "brier_g": 0.06412852763696796,
+        "diff_brier": -0.008978310302213618
+      },
+      {
+        "repeat": 2,
+        "seed": 1037,
+        "auc_b": 0.7373307738937158,
+        "auc_g": 0.8304910082845017,
+        "diff_auc": 0.09316023439078591,
+        "prc_b": 0.37299205052919787,
+        "prc_g": 0.48550637466374486,
+        "diff_prc": 0.11251432413454698,
+        "brier_b": 0.07214092854573191,
+        "brier_g": 0.06454861884474611,
+        "diff_brier": -0.007592309700985803
+      },
+      {
+        "repeat": 3,
+        "seed": 1074,
+        "auc_b": 0.733946251768034,
+        "auc_g": 0.8340270761770054,
+        "diff_auc": 0.10008082440897148,
+        "prc_b": 0.3306934155384329,
+        "prc_g": 0.4814804555768847,
+        "diff_prc": 0.15078704003845178,
+        "brier_b": 0.07421444216344643,
+        "brier_g": 0.06453813885396613,
+        "diff_brier": -0.0096763033094803
+      },
+      {
+        "repeat": 4,
+        "seed": 1111,
+        "auc_b": 0.740119216003233,
+        "auc_g": 0.8387957163063245,
+        "diff_auc": 0.0986765003030915,
+        "prc_b": 0.3680588440699072,
+        "prc_g": 0.4884553860638152,
+        "diff_prc": 0.12039654199390804,
+        "brier_b": 0.07260353880389392,
+        "brier_g": 0.06405652401531431,
+        "diff_brier": -0.00854701478857961
+      },
+      {
+        "repeat": 5,
+        "seed": 1148,
+        "auc_b": 0.7527076177005456,
+        "auc_g": 0.8380076783188523,
+        "diff_auc": 0.08530006061830664,
+        "prc_b": 0.3734232106181442,
+        "prc_g": 0.47376109660707505,
+        "diff_prc": 0.10033788598893084,
+        "brier_b": 0.07225036048974749,
+        "brier_g": 0.0649147262690178,
+        "diff_brier": -0.007335634220729692
+      },
+      {
+        "repeat": 6,
+        "seed": 1185,
+        "auc_b": 0.7393715902202465,
+        "auc_g": 0.82710648615882,
+        "diff_auc": 0.08773489593857353,
+        "prc_b": 0.3496006904341237,
+        "prc_g": 0.46932763557250157,
+        "diff_prc": 0.1197269451383779,
+        "brier_b": 0.07360980428592319,
+        "brier_g": 0.06537738813550227,
+        "diff_brier": -0.008232416150420918
+      },
+      {
+        "repeat": 7,
+        "seed": 1222,
+        "auc_b": 0.745736512426753,
+        "auc_g": 0.8374419074560516,
+        "diff_auc": 0.09170539502929864,
+        "prc_b": 0.37237069234307457,
+        "prc_g": 0.49542090336947747,
+        "diff_prc": 0.1230502110264029,
+        "brier_b": 0.07234473173758803,
+        "brier_g": 0.06381322640971829,
+        "diff_brier": -0.00853150532786974
+      },
+      {
+        "repeat": 8,
+        "seed": 1259,
+        "auc_b": 0.7361487169125076,
+        "auc_g": 0.830632451000202,
+        "diff_auc": 0.0944837340876944,
+        "prc_b": 0.3323706325977103,
+        "prc_g": 0.466897450737508,
+        "diff_prc": 0.13452681813979767,
+        "brier_b": 0.07449187540985333,
+        "brier_g": 0.06579568252483955,
+        "diff_brier": -0.008696192885013776
+      },
+      {
+        "repeat": 9,
+        "seed": 1296,
+        "auc_b": 0.7321681147706607,
+        "auc_g": 0.829571630632451,
+        "diff_auc": 0.0974035158617903,
+        "prc_b": 0.368211751310662,
+        "prc_g": 0.47897977166167993,
+        "diff_prc": 0.1107680203510179,
+        "brier_b": 0.07252140934471268,
+        "brier_g": 0.0649222986390427,
+        "diff_brier": -0.007599110705669987
+      },
+      {
+        "repeat": 10,
+        "seed": 1333,
+        "auc_b": 0.7233582541927662,
+        "auc_g": 0.8356233582541926,
+        "diff_auc": 0.11226510406142642,
+        "prc_b": 0.334945041956729,
+        "prc_g": 0.4754627918427076,
+        "diff_prc": 0.14051774988597865,
+        "brier_b": 0.07364544327701142,
+        "brier_g": 0.06453358167491698,
+        "diff_brier": -0.009111861602094443
+      },
+      {
+        "repeat": 11,
+        "seed": 1370,
+        "auc_b": 0.7300464740351587,
+        "auc_g": 0.8310062638916953,
+        "diff_auc": 0.10095978985653664,
+        "prc_b": 0.36837286977744305,
+        "prc_g": 0.4747132415043871,
+        "diff_prc": 0.10634037172694405,
+        "brier_b": 0.07278265756769856,
+        "brier_g": 0.06505019371580754,
+        "diff_brier": -0.007732463851891011
+      },
+      {
+        "repeat": 12,
+        "seed": 1407,
+        "auc_b": 0.7276722570216205,
+        "auc_g": 0.8311173974540311,
+        "diff_auc": 0.1034451404324106,
+        "prc_b": 0.3561411491046035,
+        "prc_g": 0.47489775856338223,
+        "diff_prc": 0.11875660945877875,
+        "brier_b": 0.07327002450621774,
+        "brier_g": 0.06508677141890748,
+        "diff_brier": -0.008183253087310258
+      },
+      {
+        "repeat": 13,
+        "seed": 1444,
+        "auc_b": 0.7071428571428571,
+        "auc_g": 0.8281167912709638,
+        "diff_auc": 0.12097393412810675,
+        "prc_b": 0.2522263690660127,
+        "prc_g": 0.4174652360959552,
+        "diff_prc": 0.1652388670299425,
+        "brier_b": 0.07844699789499185,
+        "brier_g": 0.06833052164823737,
+        "diff_brier": -0.010116476246754477
+      },
+      {
+        "repeat": 14,
+        "seed": 1481,
+        "auc_b": 0.7292786421499293,
+        "auc_g": 0.8279854516063851,
+        "diff_auc": 0.09870680945645582,
+        "prc_b": 0.3308156013486509,
+        "prc_g": 0.47034227207262264,
+        "diff_prc": 0.13952667072397174,
+        "brier_b": 0.07422717788011841,
+        "brier_g": 0.06539563579790733,
+        "diff_brier": -0.008831542082211083
+      },
+      {
+        "repeat": 15,
+        "seed": 1518,
+        "auc_b": 0.736138613861386,
+        "auc_g": 0.828399676702364,
+        "diff_auc": 0.09226106284097801,
+        "prc_b": 0.36611570683839467,
+        "prc_g": 0.4732833166591435,
+        "diff_prc": 0.10716760982074885,
+        "brier_b": 0.07235936362291374,
+        "brier_g": 0.0650525366887439,
+        "diff_brier": -0.007306826934169841
+      },
+      {
+        "repeat": 16,
+        "seed": 1555,
+        "auc_b": 0.7432915740553647,
+        "auc_g": 0.8395433420893109,
+        "diff_auc": 0.0962517680339462,
+        "prc_b": 0.37725175856426013,
+        "prc_g": 0.49560631648040127,
+        "diff_prc": 0.11835455791614113,
+        "brier_b": 0.07182592633435073,
+        "brier_g": 0.06383001056113095,
+        "diff_brier": -0.007995915773219772
+      },
+      {
+        "repeat": 17,
+        "seed": 1592,
+        "auc_b": 0.7526773085471814,
+        "auc_g": 0.8347241867043846,
+        "diff_auc": 0.08204687815720324,
+        "prc_b": 0.3918940051418175,
+        "prc_g": 0.4792207014970283,
+        "diff_prc": 0.08732669635521079,
+        "brier_b": 0.07095775286369395,
+        "brier_g": 0.06466788079440829,
+        "diff_brier": -0.0062898720692856624
+      },
+      {
+        "repeat": 18,
+        "seed": 1629,
+        "auc_b": 0.7144978783592645,
+        "auc_g": 0.8235805213174378,
+        "diff_auc": 0.10908264295817327,
+        "prc_b": 0.3248980980536901,
+        "prc_g": 0.4661380150698148,
+        "diff_prc": 0.1412399170161247,
+        "brier_b": 0.07535088947118301,
+        "brier_g": 0.06558684308215249,
+        "diff_brier": -0.009764046389030528
+      },
+      {
+        "repeat": 19,
+        "seed": 1666,
+        "auc_b": 0.738442109517074,
+        "auc_g": 0.8322994544352394,
+        "diff_auc": 0.09385734491816544,
+        "prc_b": 0.36650936086079733,
+        "prc_g": 0.4821334271005676,
+        "diff_prc": 0.11562406623977028,
+        "brier_b": 0.07242296568983013,
+        "brier_g": 0.06452890203149399,
+        "diff_brier": -0.007894063658336142
+      },
+      {
+        "repeat": 20,
+        "seed": 1703,
+        "auc_b": 0.749262477268135,
+        "auc_g": 0.8325924429177612,
+        "diff_auc": 0.08332996564962625,
+        "prc_b": 0.38439587439756917,
+        "prc_g": 0.48942060643232327,
+        "diff_prc": 0.1050247320347541,
+        "brier_b": 0.07178752045431831,
+        "brier_g": 0.06434702011767042,
+        "diff_brier": -0.007440500336647893
+      }
+    ]
+  }
+}

@@ -1,0 +1,6241 @@
+[
+  {
+    "patientId": "2010",
+    "nightDate": "2022-01-11",
+    "bedtimeGlucose": 192.6,
+    "bedtimeSlope1h": -22.3,
+    "bedtimeSlope3h": -11.7,
+    "calibratedRisk": 0.025,
+    "riskTier": "LOW",
+    "actualGroundTruthStrictLow": false,
+    "actualGroundTruthNadir": 84.6,
+    "cgmSeries": [
+      {
+        "timestamp": "2022-01-11T17:44:00",
+        "glucose": 172.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T17:59:00",
+        "glucose": 201.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T18:14:00",
+        "glucose": 223.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T18:29:00",
+        "glucose": 230.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T18:44:00",
+        "glucose": 230.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T18:59:00",
+        "glucose": 221.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T19:14:00",
+        "glucose": 214.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T19:29:00",
+        "glucose": 219.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T19:44:00",
+        "glucose": 226.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T19:59:00",
+        "glucose": 225.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T20:14:00",
+        "glucose": 226.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T20:29:00",
+        "glucose": 228.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T20:44:00",
+        "glucose": 210.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T20:59:00",
+        "glucose": 203.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T21:14:00",
+        "glucose": 208.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T21:29:00",
+        "glucose": 199.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T21:44:00",
+        "glucose": 192.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T21:59:00",
+        "glucose": 192.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T22:14:00",
+        "glucose": 190.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T22:29:00",
+        "glucose": 194.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T22:44:00",
+        "glucose": 190.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T22:59:00",
+        "glucose": 178.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T23:14:00",
+        "glucose": 167.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-11T23:29:00",
+        "glucose": 167.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-11T23:44:00",
+        "glucose": 151.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-11T23:59:00",
+        "glucose": 144.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T00:14:00",
+        "glucose": 149.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T00:29:00",
+        "glucose": 138.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T00:44:00",
+        "glucose": 129.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T00:59:00",
+        "glucose": 124.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T01:14:00",
+        "glucose": 118.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T01:29:00",
+        "glucose": 117.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T01:44:00",
+        "glucose": 113.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T01:59:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T02:14:00",
+        "glucose": 91.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T02:29:00",
+        "glucose": 84.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T02:44:00",
+        "glucose": 84.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T02:59:00",
+        "glucose": 95.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T03:14:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T03:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T03:44:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T03:59:00",
+        "glucose": 124.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T04:14:00",
+        "glucose": 133.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T04:29:00",
+        "glucose": 131.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T04:44:00",
+        "glucose": 147.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T04:59:00",
+        "glucose": 149.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T05:14:00",
+        "glucose": 156.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T05:29:00",
+        "glucose": 189.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T05:44:00",
+        "glucose": 196.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T05:59:00",
+        "glucose": 198.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T06:14:00",
+        "glucose": 205.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T06:29:00",
+        "glucose": 205.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T06:44:00",
+        "glucose": 208.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T06:59:00",
+        "glucose": 208.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T07:14:00",
+        "glucose": 217.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T07:29:00",
+        "glucose": 257.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T07:44:00",
+        "glucose": 307.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T07:59:00",
+        "glucose": 352.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      }
+    ],
+    "twinForecast": [
+      {
+        "timestamp": "2022-01-11T22:00:00",
+        "minutes": 0,
+        "predictedGlucose": 192.6,
+        "lowerConformal": 155.0,
+        "upperConformal": 230.2,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-11T22:15:00",
+        "minutes": 15,
+        "predictedGlucose": 188.1,
+        "lowerConformal": 150.5,
+        "upperConformal": 225.7,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-11T22:30:00",
+        "minutes": 30,
+        "predictedGlucose": 183.9,
+        "lowerConformal": 146.3,
+        "upperConformal": 221.5,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-11T22:45:00",
+        "minutes": 45,
+        "predictedGlucose": 179.9,
+        "lowerConformal": 142.3,
+        "upperConformal": 217.5,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-11T23:00:00",
+        "minutes": 60,
+        "predictedGlucose": 176.2,
+        "lowerConformal": 138.6,
+        "upperConformal": 213.8,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-11T23:15:00",
+        "minutes": 75,
+        "predictedGlucose": 172.6,
+        "lowerConformal": 135.0,
+        "upperConformal": 210.2,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-11T23:30:00",
+        "minutes": 90,
+        "predictedGlucose": 169.3,
+        "lowerConformal": 131.7,
+        "upperConformal": 206.9,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-11T23:45:00",
+        "minutes": 105,
+        "predictedGlucose": 166.1,
+        "lowerConformal": 128.5,
+        "upperConformal": 203.7,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T00:00:00",
+        "minutes": 120,
+        "predictedGlucose": 163.1,
+        "lowerConformal": 125.5,
+        "upperConformal": 200.7,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T00:15:00",
+        "minutes": 135,
+        "predictedGlucose": 160.2,
+        "lowerConformal": 122.6,
+        "upperConformal": 197.8,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T00:30:00",
+        "minutes": 150,
+        "predictedGlucose": 157.5,
+        "lowerConformal": 119.9,
+        "upperConformal": 195.1,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T00:45:00",
+        "minutes": 165,
+        "predictedGlucose": 155.0,
+        "lowerConformal": 117.4,
+        "upperConformal": 192.6,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T01:00:00",
+        "minutes": 180,
+        "predictedGlucose": 152.5,
+        "lowerConformal": 114.9,
+        "upperConformal": 190.1,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T01:15:00",
+        "minutes": 195,
+        "predictedGlucose": 150.2,
+        "lowerConformal": 112.6,
+        "upperConformal": 187.8,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T01:30:00",
+        "minutes": 210,
+        "predictedGlucose": 148.0,
+        "lowerConformal": 110.4,
+        "upperConformal": 185.6,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T01:45:00",
+        "minutes": 225,
+        "predictedGlucose": 145.9,
+        "lowerConformal": 108.3,
+        "upperConformal": 183.5,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T02:00:00",
+        "minutes": 240,
+        "predictedGlucose": 143.8,
+        "lowerConformal": 106.2,
+        "upperConformal": 181.4,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T02:15:00",
+        "minutes": 255,
+        "predictedGlucose": 141.9,
+        "lowerConformal": 104.3,
+        "upperConformal": 179.5,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T02:30:00",
+        "minutes": 270,
+        "predictedGlucose": 140.0,
+        "lowerConformal": 102.4,
+        "upperConformal": 177.6,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T02:45:00",
+        "minutes": 285,
+        "predictedGlucose": 138.2,
+        "lowerConformal": 100.6,
+        "upperConformal": 175.8,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T03:00:00",
+        "minutes": 300,
+        "predictedGlucose": 136.5,
+        "lowerConformal": 98.9,
+        "upperConformal": 174.1,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T03:15:00",
+        "minutes": 315,
+        "predictedGlucose": 134.8,
+        "lowerConformal": 97.2,
+        "upperConformal": 172.4,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T03:30:00",
+        "minutes": 330,
+        "predictedGlucose": 133.2,
+        "lowerConformal": 95.6,
+        "upperConformal": 170.8,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T03:45:00",
+        "minutes": 345,
+        "predictedGlucose": 131.7,
+        "lowerConformal": 94.1,
+        "upperConformal": 169.3,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T04:00:00",
+        "minutes": 360,
+        "predictedGlucose": 130.2,
+        "lowerConformal": 92.6,
+        "upperConformal": 167.8,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T04:15:00",
+        "minutes": 375,
+        "predictedGlucose": 128.7,
+        "lowerConformal": 91.1,
+        "upperConformal": 166.3,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T04:30:00",
+        "minutes": 390,
+        "predictedGlucose": 127.3,
+        "lowerConformal": 89.7,
+        "upperConformal": 164.9,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T04:45:00",
+        "minutes": 405,
+        "predictedGlucose": 125.9,
+        "lowerConformal": 88.3,
+        "upperConformal": 163.5,
+        "persistenceBaseline": 192.6
+      },
+      {
+        "timestamp": "2022-01-12T05:00:00",
+        "minutes": 420,
+        "predictedGlucose": 124.6,
+        "lowerConformal": 87.0,
+        "upperConformal": 162.2,
+        "persistenceBaseline": 192.6
+      }
+    ],
+    "shapFactors": [
+      {
+        "feature": "cgm_bedtime",
+        "label": "Bedtime CGM Reading",
+        "value": "192.6 mg/dL",
+        "impact": -0.313,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "cgm_slope_3h",
+        "label": "3-Hour Glycemic Momentum",
+        "value": "-11.7 mg/dL/hr",
+        "impact": 0.117,
+        "direction": "INCREASES_RISK"
+      },
+      {
+        "feature": "su_therapy",
+        "label": "Sulfonylurea Regimen (none)",
+        "value": "0 mg",
+        "impact": -0.05,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "cold_start_policy",
+        "label": "Cold-Start Policy",
+        "value": "CGM-Only Model B (No prior nights)",
+        "impact": 0.0,
+        "direction": "DECREASES_RISK"
+      }
+    ],
+    "clinicalSummary": {
+      "headline": "Stable Nocturnal Profile (2.5% calibrated probability)",
+      "riskLevel": "Low Risk",
+      "calibratedProbabilityPct": 2.5,
+      "operatingPointContext": "Calibrated against 10.5% cohort prevalence. At 80% operational specificity, model PPV is 30.6% (NNW = 3.27, Alert Burden = 1.8 alerts/pt-week).",
+      "primaryDrivers": [
+        "No personal history yet: calibrated risk estimated using acute CGM dynamics (Model B).",
+        "Rapid negative 3-hour glucose trajectory (-11.7 mg/dL/hr).",
+        "Concurrent exogenous insulin therapy increasing overnight vulnerability."
+      ],
+      "recommendedAction": "Standard bedtime monitoring routine. No acute bedtime carbohydrate supplementation required.",
+      "disclaimer": "Decision support prototype for academic clinical evaluation. Not an approved medical device. What-if projections represent physiological hypotheses."
+    },
+    "isColdStart": true,
+    "priorNightLow": false,
+    "priorLowCount": 0,
+    "nightsSinceLastLow": 99,
+    "personalMedianNadir": 110.0,
+    "riskModelUsed": "CGM_ONLY_COLD_START",
+    "fallbackForecastType": "POPULATION_AVERAGE_PROFILE"
+  },
+  {
+    "patientId": "2010",
+    "nightDate": "2022-01-12",
+    "bedtimeGlucose": 122.4,
+    "bedtimeSlope1h": 49.0,
+    "bedtimeSlope3h": -20.1,
+    "calibratedRisk": 0.053,
+    "riskTier": "LOW",
+    "actualGroundTruthStrictLow": false,
+    "actualGroundTruthNadir": 129.6,
+    "cgmSeries": [
+      {
+        "timestamp": "2022-01-11T22:14:00",
+        "glucose": 190.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T22:29:00",
+        "glucose": 194.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T22:44:00",
+        "glucose": 190.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T22:59:00",
+        "glucose": 178.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T23:14:00",
+        "glucose": 167.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T23:29:00",
+        "glucose": 167.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T23:44:00",
+        "glucose": 151.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-11T23:59:00",
+        "glucose": 144.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T00:14:00",
+        "glucose": 149.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T00:29:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T00:44:00",
+        "glucose": 129.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T00:59:00",
+        "glucose": 124.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T01:14:00",
+        "glucose": 118.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T01:29:00",
+        "glucose": 117.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T01:44:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T01:59:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T02:14:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T02:29:00",
+        "glucose": 84.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T02:44:00",
+        "glucose": 84.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T02:59:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T03:14:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T03:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T03:44:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T03:59:00",
+        "glucose": 124.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T04:14:00",
+        "glucose": 133.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T04:29:00",
+        "glucose": 131.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T04:44:00",
+        "glucose": 147.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T04:59:00",
+        "glucose": 149.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T05:14:00",
+        "glucose": 156.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T05:29:00",
+        "glucose": 189.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T05:44:00",
+        "glucose": 196.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T05:59:00",
+        "glucose": 198.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T06:14:00",
+        "glucose": 205.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T06:29:00",
+        "glucose": 205.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T06:44:00",
+        "glucose": 208.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T06:59:00",
+        "glucose": 208.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T07:14:00",
+        "glucose": 217.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T07:29:00",
+        "glucose": 257.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T07:44:00",
+        "glucose": 307.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T07:59:00",
+        "glucose": 352.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T08:14:00",
+        "glucose": 376.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T08:29:00",
+        "glucose": 392.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T08:44:00",
+        "glucose": 403.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T08:59:00",
+        "glucose": 399.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T09:14:00",
+        "glucose": 379.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T09:29:00",
+        "glucose": 347.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T09:44:00",
+        "glucose": 313.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T09:59:00",
+        "glucose": 279.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T10:14:00",
+        "glucose": 248.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T10:29:00",
+        "glucose": 226.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T10:44:00",
+        "glucose": 210.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T10:59:00",
+        "glucose": 185.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T11:14:00",
+        "glucose": 158.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T11:29:00",
+        "glucose": 169.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T11:44:00",
+        "glucose": 219.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T11:59:00",
+        "glucose": 241.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T12:14:00",
+        "glucose": 234.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T12:29:00",
+        "glucose": 217.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T12:44:00",
+        "glucose": 189.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T12:59:00",
+        "glucose": 163.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T13:14:00",
+        "glucose": 158.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T13:29:00",
+        "glucose": 151.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T13:44:00",
+        "glucose": 140.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T13:59:00",
+        "glucose": 129.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T14:14:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T14:29:00",
+        "glucose": 111.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T14:44:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T14:59:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T15:14:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T15:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T15:44:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T15:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T16:14:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T16:29:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T16:44:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T16:59:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T17:14:00",
+        "glucose": 149.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T17:29:00",
+        "glucose": 198.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T17:44:00",
+        "glucose": 217.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T17:59:00",
+        "glucose": 230.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T18:14:00",
+        "glucose": 246.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T18:29:00",
+        "glucose": 235.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T18:44:00",
+        "glucose": 205.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T18:59:00",
+        "glucose": 176.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T19:14:00",
+        "glucose": 158.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T19:29:00",
+        "glucose": 147.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T19:44:00",
+        "glucose": 129.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T19:59:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T20:14:00",
+        "glucose": 115.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T20:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T20:44:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T20:59:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T21:14:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T21:29:00",
+        "glucose": 82.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T21:44:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T21:59:00",
+        "glucose": 122.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T22:14:00",
+        "glucose": 133.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T22:29:00",
+        "glucose": 131.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T22:44:00",
+        "glucose": 129.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T22:59:00",
+        "glucose": 136.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T23:14:00",
+        "glucose": 140.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T23:29:00",
+        "glucose": 135.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T23:44:00",
+        "glucose": 129.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-12T23:59:00",
+        "glucose": 138.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T00:14:00",
+        "glucose": 154.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T00:29:00",
+        "glucose": 160.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T00:44:00",
+        "glucose": 169.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T00:59:00",
+        "glucose": 174.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T01:14:00",
+        "glucose": 181.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T01:29:00",
+        "glucose": 185.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T01:44:00",
+        "glucose": 187.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T01:59:00",
+        "glucose": 172.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T02:14:00",
+        "glucose": 151.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T02:29:00",
+        "glucose": 147.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T02:44:00",
+        "glucose": 160.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T02:59:00",
+        "glucose": 165.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T03:14:00",
+        "glucose": 165.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T03:29:00",
+        "glucose": 171.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T03:44:00",
+        "glucose": 178.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T03:59:00",
+        "glucose": 181.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T04:14:00",
+        "glucose": 174.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T04:29:00",
+        "glucose": 165.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T04:44:00",
+        "glucose": 163.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T04:59:00",
+        "glucose": 160.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T05:14:00",
+        "glucose": 153.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T05:29:00",
+        "glucose": 153.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T05:44:00",
+        "glucose": 158.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T05:59:00",
+        "glucose": 158.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T06:14:00",
+        "glucose": 154.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T06:29:00",
+        "glucose": 156.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T06:44:00",
+        "glucose": 162.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T06:59:00",
+        "glucose": 167.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T07:14:00",
+        "glucose": 196.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T07:29:00",
+        "glucose": 243.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T07:44:00",
+        "glucose": 289.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T07:59:00",
+        "glucose": 315.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      }
+    ],
+    "twinForecast": [
+      {
+        "timestamp": "2022-01-12T22:00:00",
+        "minutes": 0,
+        "predictedGlucose": 122.4,
+        "lowerConformal": 84.8,
+        "upperConformal": 160.0,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-12T22:15:00",
+        "minutes": 15,
+        "predictedGlucose": 125.7,
+        "lowerConformal": 88.1,
+        "upperConformal": 163.3,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-12T22:30:00",
+        "minutes": 30,
+        "predictedGlucose": 134.1,
+        "lowerConformal": 96.5,
+        "upperConformal": 171.7,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-12T22:45:00",
+        "minutes": 45,
+        "predictedGlucose": 134.9,
+        "lowerConformal": 97.3,
+        "upperConformal": 172.5,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-12T23:00:00",
+        "minutes": 60,
+        "predictedGlucose": 126.3,
+        "lowerConformal": 88.7,
+        "upperConformal": 163.9,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-12T23:15:00",
+        "minutes": 75,
+        "predictedGlucose": 119.3,
+        "lowerConformal": 81.7,
+        "upperConformal": 156.9,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-12T23:30:00",
+        "minutes": 90,
+        "predictedGlucose": 122.8,
+        "lowerConformal": 85.2,
+        "upperConformal": 160.4,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-12T23:45:00",
+        "minutes": 105,
+        "predictedGlucose": 109.9,
+        "lowerConformal": 72.3,
+        "upperConformal": 147.5,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T00:00:00",
+        "minutes": 120,
+        "predictedGlucose": 105.7,
+        "lowerConformal": 68.1,
+        "upperConformal": 143.3,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T00:15:00",
+        "minutes": 135,
+        "predictedGlucose": 113.9,
+        "lowerConformal": 76.3,
+        "upperConformal": 151.5,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T00:30:00",
+        "minutes": 150,
+        "predictedGlucose": 105.7,
+        "lowerConformal": 68.1,
+        "upperConformal": 143.3,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T00:45:00",
+        "minutes": 165,
+        "predictedGlucose": 99.1,
+        "lowerConformal": 61.5,
+        "upperConformal": 136.7,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T01:00:00",
+        "minutes": 180,
+        "predictedGlucose": 95.9,
+        "lowerConformal": 58.3,
+        "upperConformal": 133.5,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T01:15:00",
+        "minutes": 195,
+        "predictedGlucose": 92.5,
+        "lowerConformal": 54.9,
+        "upperConformal": 130.1,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T01:30:00",
+        "minutes": 210,
+        "predictedGlucose": 92.7,
+        "lowerConformal": 55.1,
+        "upperConformal": 130.3,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T01:45:00",
+        "minutes": 225,
+        "predictedGlucose": 90.8,
+        "lowerConformal": 53.2,
+        "upperConformal": 128.4,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T02:00:00",
+        "minutes": 240,
+        "predictedGlucose": 83.5,
+        "lowerConformal": 45.9,
+        "upperConformal": 121.1,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T02:15:00",
+        "minutes": 255,
+        "predictedGlucose": 72.4,
+        "lowerConformal": 34.8,
+        "upperConformal": 110.0,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T02:30:00",
+        "minutes": 270,
+        "predictedGlucose": 66.6,
+        "lowerConformal": 29.0,
+        "upperConformal": 104.2,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T02:45:00",
+        "minutes": 285,
+        "predictedGlucose": 67.9,
+        "lowerConformal": 30.3,
+        "upperConformal": 105.5,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T03:00:00",
+        "minutes": 300,
+        "predictedGlucose": 79.9,
+        "lowerConformal": 42.3,
+        "upperConformal": 117.5,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T03:15:00",
+        "minutes": 315,
+        "predictedGlucose": 88.3,
+        "lowerConformal": 50.7,
+        "upperConformal": 125.9,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T03:30:00",
+        "minutes": 330,
+        "predictedGlucose": 87.5,
+        "lowerConformal": 49.9,
+        "upperConformal": 125.1,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T03:45:00",
+        "minutes": 345,
+        "predictedGlucose": 92.1,
+        "lowerConformal": 54.5,
+        "upperConformal": 129.7,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T04:00:00",
+        "minutes": 360,
+        "predictedGlucose": 112.8,
+        "lowerConformal": 75.2,
+        "upperConformal": 150.4,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T04:15:00",
+        "minutes": 375,
+        "predictedGlucose": 122.6,
+        "lowerConformal": 85.0,
+        "upperConformal": 160.2,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T04:30:00",
+        "minutes": 390,
+        "predictedGlucose": 121.6,
+        "lowerConformal": 84.0,
+        "upperConformal": 159.2,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T04:45:00",
+        "minutes": 405,
+        "predictedGlucose": 138.5,
+        "lowerConformal": 100.9,
+        "upperConformal": 176.1,
+        "persistenceBaseline": 122.4
+      },
+      {
+        "timestamp": "2022-01-13T05:00:00",
+        "minutes": 420,
+        "predictedGlucose": 141.0,
+        "lowerConformal": 103.4,
+        "upperConformal": 178.6,
+        "persistenceBaseline": 122.4
+      }
+    ],
+    "shapFactors": [
+      {
+        "feature": "hist_nights_since_last_low",
+        "label": "Recent Hypoglycemia History",
+        "value": "99 nights ago",
+        "impact": -0.15,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "cgm_bedtime",
+        "label": "Bedtime CGM Reading",
+        "value": "122.4 mg/dL",
+        "impact": 0.038,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "cgm_slope_3h",
+        "label": "3-Hour Glycemic Momentum",
+        "value": "-20.1 mg/dL/hr",
+        "impact": 0.201,
+        "direction": "INCREASES_RISK"
+      },
+      {
+        "feature": "su_therapy",
+        "label": "Sulfonylurea Regimen (none)",
+        "value": "0 mg",
+        "impact": -0.05,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "hist_personal_median_nadir",
+        "label": "Historical Nocturnal Nadir",
+        "value": "84.6 mg/dL",
+        "impact": 0.022,
+        "direction": "DECREASES_RISK"
+      }
+    ],
+    "clinicalSummary": {
+      "headline": "Stable Nocturnal Profile (5.3% calibrated probability)",
+      "riskLevel": "Low Risk",
+      "calibratedProbabilityPct": 5.3,
+      "operatingPointContext": "Calibrated against 10.5% cohort prevalence. At 80% operational specificity, model PPV is 30.6% (NNW = 3.27, Alert Burden = 1.8 alerts/pt-week).",
+      "primaryDrivers": [
+        "Rapid negative 3-hour glucose trajectory (-20.1 mg/dL/hr).",
+        "Concurrent exogenous insulin therapy increasing overnight vulnerability."
+      ],
+      "recommendedAction": "Standard bedtime monitoring routine. No acute bedtime carbohydrate supplementation required.",
+      "disclaimer": "Decision support prototype for academic clinical evaluation. Not an approved medical device. What-if projections represent physiological hypotheses."
+    },
+    "isColdStart": false,
+    "priorNightLow": false,
+    "priorLowCount": 0,
+    "nightsSinceLastLow": 99,
+    "personalMedianNadir": 84.6,
+    "riskModelUsed": "CGM_AND_PATIENT_HISTORY",
+    "fallbackForecastType": null
+  },
+  {
+    "patientId": "2010",
+    "nightDate": "2022-01-13",
+    "bedtimeGlucose": 95.4,
+    "bedtimeSlope1h": -10.8,
+    "bedtimeSlope3h": -10.4,
+    "calibratedRisk": 0.047,
+    "riskTier": "LOW",
+    "actualGroundTruthStrictLow": false,
+    "actualGroundTruthNadir": 77.4,
+    "cgmSeries": [
+      {
+        "timestamp": "2022-01-12T22:14:00",
+        "glucose": 133.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T22:29:00",
+        "glucose": 131.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T22:44:00",
+        "glucose": 129.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T22:59:00",
+        "glucose": 136.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T23:14:00",
+        "glucose": 140.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T23:29:00",
+        "glucose": 135.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T23:44:00",
+        "glucose": 129.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-12T23:59:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T00:14:00",
+        "glucose": 154.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T00:29:00",
+        "glucose": 160.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T00:44:00",
+        "glucose": 169.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T00:59:00",
+        "glucose": 174.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T01:14:00",
+        "glucose": 181.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T01:29:00",
+        "glucose": 185.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T01:44:00",
+        "glucose": 187.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T01:59:00",
+        "glucose": 172.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T02:14:00",
+        "glucose": 151.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T02:29:00",
+        "glucose": 147.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T02:44:00",
+        "glucose": 160.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T02:59:00",
+        "glucose": 165.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T03:14:00",
+        "glucose": 165.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T03:29:00",
+        "glucose": 171.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T03:44:00",
+        "glucose": 178.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T03:59:00",
+        "glucose": 181.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T04:14:00",
+        "glucose": 174.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T04:29:00",
+        "glucose": 165.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T04:44:00",
+        "glucose": 163.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T04:59:00",
+        "glucose": 160.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T05:14:00",
+        "glucose": 153.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T05:29:00",
+        "glucose": 153.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T05:44:00",
+        "glucose": 158.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T05:59:00",
+        "glucose": 158.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T06:14:00",
+        "glucose": 154.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T06:29:00",
+        "glucose": 156.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T06:44:00",
+        "glucose": 162.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T06:59:00",
+        "glucose": 167.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T07:14:00",
+        "glucose": 196.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T07:29:00",
+        "glucose": 243.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T07:44:00",
+        "glucose": 289.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T07:59:00",
+        "glucose": 315.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T08:14:00",
+        "glucose": 298.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T08:29:00",
+        "glucose": 266.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T08:44:00",
+        "glucose": 237.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T08:59:00",
+        "glucose": 212.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T09:14:00",
+        "glucose": 198.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T09:29:00",
+        "glucose": 189.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T09:44:00",
+        "glucose": 176.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T09:59:00",
+        "glucose": 163.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T10:14:00",
+        "glucose": 154.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T10:29:00",
+        "glucose": 142.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T10:44:00",
+        "glucose": 133.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T10:59:00",
+        "glucose": 136.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T11:14:00",
+        "glucose": 163.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T11:29:00",
+        "glucose": 187.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T11:44:00",
+        "glucose": 194.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T11:59:00",
+        "glucose": 201.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T12:14:00",
+        "glucose": 199.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T12:29:00",
+        "glucose": 189.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T12:44:00",
+        "glucose": 174.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T12:59:00",
+        "glucose": 169.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T13:14:00",
+        "glucose": 167.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T13:29:00",
+        "glucose": 162.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T13:44:00",
+        "glucose": 154.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T13:59:00",
+        "glucose": 149.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T14:14:00",
+        "glucose": 151.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T14:29:00",
+        "glucose": 158.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T14:44:00",
+        "glucose": 162.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T14:59:00",
+        "glucose": 162.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T15:14:00",
+        "glucose": 160.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T15:29:00",
+        "glucose": 154.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T15:44:00",
+        "glucose": 142.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T15:59:00",
+        "glucose": 131.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T16:14:00",
+        "glucose": 124.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T16:29:00",
+        "glucose": 118.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T16:44:00",
+        "glucose": 115.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T16:59:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T17:14:00",
+        "glucose": 124.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T17:29:00",
+        "glucose": 145.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T17:44:00",
+        "glucose": 151.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T17:59:00",
+        "glucose": 145.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T18:14:00",
+        "glucose": 144.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T18:29:00",
+        "glucose": 142.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T18:44:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T18:59:00",
+        "glucose": 131.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T19:14:00",
+        "glucose": 129.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T19:29:00",
+        "glucose": 127.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T19:44:00",
+        "glucose": 122.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T19:59:00",
+        "glucose": 111.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T20:14:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T20:29:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T20:44:00",
+        "glucose": 115.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T20:59:00",
+        "glucose": 111.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T21:14:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T21:29:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T21:44:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T21:59:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T22:14:00",
+        "glucose": 81.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T22:29:00",
+        "glucose": 73.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T22:44:00",
+        "glucose": 75.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T22:59:00",
+        "glucose": 81.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T23:14:00",
+        "glucose": 84.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T23:29:00",
+        "glucose": 86.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T23:44:00",
+        "glucose": 84.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-13T23:59:00",
+        "glucose": 88.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T00:14:00",
+        "glucose": 88.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T00:29:00",
+        "glucose": 84.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T00:44:00",
+        "glucose": 84.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T00:59:00",
+        "glucose": 81.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T01:14:00",
+        "glucose": 77.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T01:29:00",
+        "glucose": 79.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T01:44:00",
+        "glucose": 88.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T01:59:00",
+        "glucose": 99.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T02:14:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T02:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T02:44:00",
+        "glucose": 99.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T02:59:00",
+        "glucose": 100.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T03:14:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T03:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T03:44:00",
+        "glucose": 97.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T03:59:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T04:14:00",
+        "glucose": 117.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T04:29:00",
+        "glucose": 122.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T04:44:00",
+        "glucose": 120.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T04:59:00",
+        "glucose": 120.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T05:14:00",
+        "glucose": 124.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T05:29:00",
+        "glucose": 129.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T05:44:00",
+        "glucose": 131.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T05:59:00",
+        "glucose": 135.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T06:14:00",
+        "glucose": 142.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T06:29:00",
+        "glucose": 145.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T06:44:00",
+        "glucose": 145.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T06:59:00",
+        "glucose": 145.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T07:14:00",
+        "glucose": 140.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T07:29:00",
+        "glucose": 138.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T07:44:00",
+        "glucose": 138.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T07:59:00",
+        "glucose": 131.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      }
+    ],
+    "twinForecast": [
+      {
+        "timestamp": "2022-01-13T22:00:00",
+        "minutes": 0,
+        "predictedGlucose": 95.4,
+        "lowerConformal": 57.8,
+        "upperConformal": 133.0,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-13T22:15:00",
+        "minutes": 15,
+        "predictedGlucose": 104.4,
+        "lowerConformal": 66.8,
+        "upperConformal": 142.0,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-13T22:30:00",
+        "minutes": 30,
+        "predictedGlucose": 109.5,
+        "lowerConformal": 71.9,
+        "upperConformal": 147.1,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-13T22:45:00",
+        "minutes": 45,
+        "predictedGlucose": 110.7,
+        "lowerConformal": 73.1,
+        "upperConformal": 148.3,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-13T23:00:00",
+        "minutes": 60,
+        "predictedGlucose": 111.6,
+        "lowerConformal": 74.0,
+        "upperConformal": 149.2,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-13T23:15:00",
+        "minutes": 75,
+        "predictedGlucose": 111.4,
+        "lowerConformal": 73.8,
+        "upperConformal": 149.0,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-13T23:30:00",
+        "minutes": 90,
+        "predictedGlucose": 111.8,
+        "lowerConformal": 74.2,
+        "upperConformal": 149.4,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-13T23:45:00",
+        "minutes": 105,
+        "predictedGlucose": 103.8,
+        "lowerConformal": 66.2,
+        "upperConformal": 141.4,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T00:00:00",
+        "minutes": 120,
+        "predictedGlucose": 107.4,
+        "lowerConformal": 69.8,
+        "upperConformal": 145.0,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T00:15:00",
+        "minutes": 135,
+        "predictedGlucose": 120.7,
+        "lowerConformal": 83.1,
+        "upperConformal": 158.3,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T00:30:00",
+        "minutes": 150,
+        "predictedGlucose": 120.3,
+        "lowerConformal": 82.7,
+        "upperConformal": 157.9,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T00:45:00",
+        "minutes": 165,
+        "predictedGlucose": 122.4,
+        "lowerConformal": 84.8,
+        "upperConformal": 160.0,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T01:00:00",
+        "minutes": 180,
+        "predictedGlucose": 124.3,
+        "lowerConformal": 86.7,
+        "upperConformal": 161.9,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T01:15:00",
+        "minutes": 195,
+        "predictedGlucose": 127.1,
+        "lowerConformal": 89.5,
+        "upperConformal": 164.7,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T01:30:00",
+        "minutes": 210,
+        "predictedGlucose": 129.7,
+        "lowerConformal": 92.1,
+        "upperConformal": 167.3,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T01:45:00",
+        "minutes": 225,
+        "predictedGlucose": 130.3,
+        "lowerConformal": 92.7,
+        "upperConformal": 167.9,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T02:00:00",
+        "minutes": 240,
+        "predictedGlucose": 120.1,
+        "lowerConformal": 82.5,
+        "upperConformal": 157.7,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T02:15:00",
+        "minutes": 255,
+        "predictedGlucose": 104.3,
+        "lowerConformal": 66.7,
+        "upperConformal": 141.9,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T02:30:00",
+        "minutes": 270,
+        "predictedGlucose": 100.2,
+        "lowerConformal": 62.6,
+        "upperConformal": 137.8,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T02:45:00",
+        "minutes": 285,
+        "predictedGlucose": 107.6,
+        "lowerConformal": 70.0,
+        "upperConformal": 145.2,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T03:00:00",
+        "minutes": 300,
+        "predictedGlucose": 116.8,
+        "lowerConformal": 79.2,
+        "upperConformal": 154.4,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T03:15:00",
+        "minutes": 315,
+        "predictedGlucose": 121.4,
+        "lowerConformal": 83.8,
+        "upperConformal": 159.0,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T03:30:00",
+        "minutes": 330,
+        "predictedGlucose": 124.1,
+        "lowerConformal": 86.5,
+        "upperConformal": 161.7,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T03:45:00",
+        "minutes": 345,
+        "predictedGlucose": 130.4,
+        "lowerConformal": 92.8,
+        "upperConformal": 168.0,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T04:00:00",
+        "minutes": 360,
+        "predictedGlucose": 142.9,
+        "lowerConformal": 105.3,
+        "upperConformal": 180.5,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T04:15:00",
+        "minutes": 375,
+        "predictedGlucose": 144.5,
+        "lowerConformal": 106.9,
+        "upperConformal": 182.1,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T04:30:00",
+        "minutes": 390,
+        "predictedGlucose": 139.8,
+        "lowerConformal": 102.2,
+        "upperConformal": 177.4,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T04:45:00",
+        "minutes": 405,
+        "predictedGlucose": 147.6,
+        "lowerConformal": 110.0,
+        "upperConformal": 185.2,
+        "persistenceBaseline": 95.4
+      },
+      {
+        "timestamp": "2022-01-14T05:00:00",
+        "minutes": 420,
+        "predictedGlucose": 147.3,
+        "lowerConformal": 109.7,
+        "upperConformal": 184.9,
+        "persistenceBaseline": 95.4
+      }
+    ],
+    "shapFactors": [
+      {
+        "feature": "hist_nights_since_last_low",
+        "label": "Recent Hypoglycemia History",
+        "value": "99 nights ago",
+        "impact": -0.15,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "cgm_bedtime",
+        "label": "Bedtime CGM Reading",
+        "value": "95.4 mg/dL",
+        "impact": 0.173,
+        "direction": "INCREASES_RISK"
+      },
+      {
+        "feature": "cgm_slope_3h",
+        "label": "3-Hour Glycemic Momentum",
+        "value": "-10.4 mg/dL/hr",
+        "impact": 0.104,
+        "direction": "INCREASES_RISK"
+      },
+      {
+        "feature": "su_therapy",
+        "label": "Sulfonylurea Regimen (none)",
+        "value": "0 mg",
+        "impact": -0.05,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "hist_personal_median_nadir",
+        "label": "Historical Nocturnal Nadir",
+        "value": "107.1 mg/dL",
+        "impact": -0.068,
+        "direction": "DECREASES_RISK"
+      }
+    ],
+    "clinicalSummary": {
+      "headline": "Stable Nocturnal Profile (4.7% calibrated probability)",
+      "riskLevel": "Low Risk",
+      "calibratedProbabilityPct": 4.7,
+      "operatingPointContext": "Calibrated against 10.5% cohort prevalence. At 80% operational specificity, model PPV is 30.6% (NNW = 3.27, Alert Burden = 1.8 alerts/pt-week).",
+      "primaryDrivers": [
+        "Low bedtime glucose entry point (95.4 mg/dL).",
+        "Rapid negative 3-hour glucose trajectory (-10.4 mg/dL/hr).",
+        "Concurrent exogenous insulin therapy increasing overnight vulnerability."
+      ],
+      "recommendedAction": "Standard bedtime monitoring routine. No acute bedtime carbohydrate supplementation required.",
+      "disclaimer": "Decision support prototype for academic clinical evaluation. Not an approved medical device. What-if projections represent physiological hypotheses."
+    },
+    "isColdStart": false,
+    "priorNightLow": false,
+    "priorLowCount": 0,
+    "nightsSinceLastLow": 99,
+    "personalMedianNadir": 107.1,
+    "riskModelUsed": "CGM_AND_PATIENT_HISTORY",
+    "fallbackForecastType": null
+  },
+  {
+    "patientId": "2010",
+    "nightDate": "2022-01-14",
+    "bedtimeGlucose": 88.2,
+    "bedtimeSlope1h": 2.2,
+    "bedtimeSlope3h": -4.9,
+    "calibratedRisk": 0.041,
+    "riskTier": "LOW",
+    "actualGroundTruthStrictLow": false,
+    "actualGroundTruthNadir": 88.2,
+    "cgmSeries": [
+      {
+        "timestamp": "2022-01-13T22:14:00",
+        "glucose": 81.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T22:29:00",
+        "glucose": 73.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T22:44:00",
+        "glucose": 75.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T22:59:00",
+        "glucose": 81.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T23:14:00",
+        "glucose": 84.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T23:29:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T23:44:00",
+        "glucose": 84.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-13T23:59:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T00:14:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T00:29:00",
+        "glucose": 84.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T00:44:00",
+        "glucose": 84.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T00:59:00",
+        "glucose": 81.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T01:14:00",
+        "glucose": 77.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T01:29:00",
+        "glucose": 79.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T01:44:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T01:59:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T02:14:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T02:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T02:44:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T02:59:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T03:14:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T03:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T03:44:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T03:59:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T04:14:00",
+        "glucose": 117.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T04:29:00",
+        "glucose": 122.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T04:44:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T04:59:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T05:14:00",
+        "glucose": 124.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T05:29:00",
+        "glucose": 129.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T05:44:00",
+        "glucose": 131.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T05:59:00",
+        "glucose": 135.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T06:14:00",
+        "glucose": 142.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T06:29:00",
+        "glucose": 145.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T06:44:00",
+        "glucose": 145.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T06:59:00",
+        "glucose": 145.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T07:14:00",
+        "glucose": 140.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T07:29:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T07:44:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T07:59:00",
+        "glucose": 131.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T08:14:00",
+        "glucose": 129.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T08:29:00",
+        "glucose": 133.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T08:44:00",
+        "glucose": 136.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T08:59:00",
+        "glucose": 136.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T09:14:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T09:29:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T09:44:00",
+        "glucose": 158.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T09:59:00",
+        "glucose": 203.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T10:14:00",
+        "glucose": 243.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T10:29:00",
+        "glucose": 257.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T10:44:00",
+        "glucose": 250.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T10:59:00",
+        "glucose": 234.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T11:14:00",
+        "glucose": 217.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T11:29:00",
+        "glucose": 199.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T11:44:00",
+        "glucose": 183.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T11:59:00",
+        "glucose": 169.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T12:14:00",
+        "glucose": 154.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T12:29:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T12:44:00",
+        "glucose": 126.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T12:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T13:14:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T13:29:00",
+        "glucose": 73.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T13:44:00",
+        "glucose": 66.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T13:59:00",
+        "glucose": 63.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T14:14:00",
+        "glucose": 73.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T14:29:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T14:44:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T14:59:00",
+        "glucose": 118.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T15:14:00",
+        "glucose": 127.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T15:29:00",
+        "glucose": 127.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T15:44:00",
+        "glucose": 131.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T15:59:00",
+        "glucose": 136.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T16:14:00",
+        "glucose": 149.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T16:29:00",
+        "glucose": 167.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T16:44:00",
+        "glucose": 176.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T16:59:00",
+        "glucose": 189.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T17:14:00",
+        "glucose": 190.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T17:29:00",
+        "glucose": 174.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T17:44:00",
+        "glucose": 160.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T17:59:00",
+        "glucose": 142.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T18:14:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T18:29:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T18:44:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T18:59:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T19:14:00",
+        "glucose": 90.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T19:29:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T19:44:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T19:59:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T20:14:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T20:29:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T20:44:00",
+        "glucose": 90.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T20:59:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T21:14:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T21:29:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T21:44:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T21:59:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T22:14:00",
+        "glucose": 88.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T22:29:00",
+        "glucose": 86.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T22:44:00",
+        "glucose": 93.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T22:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T23:14:00",
+        "glucose": 93.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T23:29:00",
+        "glucose": 91.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T23:44:00",
+        "glucose": 91.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-14T23:59:00",
+        "glucose": 88.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T00:14:00",
+        "glucose": 91.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T00:29:00",
+        "glucose": 97.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T00:44:00",
+        "glucose": 95.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T00:59:00",
+        "glucose": 95.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T01:14:00",
+        "glucose": 100.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T01:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T01:44:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T01:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T02:14:00",
+        "glucose": 97.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T02:29:00",
+        "glucose": 106.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T02:44:00",
+        "glucose": 111.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T02:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T03:14:00",
+        "glucose": 106.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T03:29:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T03:44:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T03:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T04:14:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T04:29:00",
+        "glucose": 106.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T04:44:00",
+        "glucose": 106.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T04:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T05:14:00",
+        "glucose": 113.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T05:29:00",
+        "glucose": 113.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T05:44:00",
+        "glucose": 118.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T05:59:00",
+        "glucose": 120.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T06:14:00",
+        "glucose": 122.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T06:29:00",
+        "glucose": 131.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T06:44:00",
+        "glucose": 138.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T06:59:00",
+        "glucose": 160.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T07:14:00",
+        "glucose": 203.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T07:29:00",
+        "glucose": 232.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T07:44:00",
+        "glucose": 228.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T07:59:00",
+        "glucose": 210.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      }
+    ],
+    "twinForecast": [
+      {
+        "timestamp": "2022-01-14T22:00:00",
+        "minutes": 0,
+        "predictedGlucose": 88.2,
+        "lowerConformal": 50.6,
+        "upperConformal": 125.8,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-14T22:15:00",
+        "minutes": 15,
+        "predictedGlucose": 89.9,
+        "lowerConformal": 52.3,
+        "upperConformal": 127.5,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-14T22:30:00",
+        "minutes": 30,
+        "predictedGlucose": 91.4,
+        "lowerConformal": 53.8,
+        "upperConformal": 129.0,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-14T22:45:00",
+        "minutes": 45,
+        "predictedGlucose": 93.3,
+        "lowerConformal": 55.7,
+        "upperConformal": 130.9,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-14T23:00:00",
+        "minutes": 60,
+        "predictedGlucose": 96.1,
+        "lowerConformal": 58.5,
+        "upperConformal": 133.7,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-14T23:15:00",
+        "minutes": 75,
+        "predictedGlucose": 97.5,
+        "lowerConformal": 59.9,
+        "upperConformal": 135.1,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-14T23:30:00",
+        "minutes": 90,
+        "predictedGlucose": 98.7,
+        "lowerConformal": 61.1,
+        "upperConformal": 136.3,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-14T23:45:00",
+        "minutes": 105,
+        "predictedGlucose": 93.2,
+        "lowerConformal": 55.6,
+        "upperConformal": 130.8,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T00:00:00",
+        "minutes": 120,
+        "predictedGlucose": 97.1,
+        "lowerConformal": 59.5,
+        "upperConformal": 134.7,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T00:15:00",
+        "minutes": 135,
+        "predictedGlucose": 106.2,
+        "lowerConformal": 68.6,
+        "upperConformal": 143.8,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T00:30:00",
+        "minutes": 150,
+        "predictedGlucose": 105.0,
+        "lowerConformal": 67.4,
+        "upperConformal": 142.6,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T00:45:00",
+        "minutes": 165,
+        "predictedGlucose": 106.7,
+        "lowerConformal": 69.1,
+        "upperConformal": 144.3,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T01:00:00",
+        "minutes": 180,
+        "predictedGlucose": 107.0,
+        "lowerConformal": 69.4,
+        "upperConformal": 144.6,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T01:15:00",
+        "minutes": 195,
+        "predictedGlucose": 107.8,
+        "lowerConformal": 70.2,
+        "upperConformal": 145.4,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T01:30:00",
+        "minutes": 210,
+        "predictedGlucose": 110.3,
+        "lowerConformal": 72.7,
+        "upperConformal": 147.9,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T01:45:00",
+        "minutes": 225,
+        "predictedGlucose": 114.0,
+        "lowerConformal": 76.4,
+        "upperConformal": 151.6,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T02:00:00",
+        "minutes": 240,
+        "predictedGlucose": 110.9,
+        "lowerConformal": 73.3,
+        "upperConformal": 148.5,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T02:15:00",
+        "minutes": 255,
+        "predictedGlucose": 102.4,
+        "lowerConformal": 64.8,
+        "upperConformal": 140.0,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T02:30:00",
+        "minutes": 270,
+        "predictedGlucose": 98.5,
+        "lowerConformal": 60.9,
+        "upperConformal": 136.1,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T02:45:00",
+        "minutes": 285,
+        "predictedGlucose": 103.1,
+        "lowerConformal": 65.5,
+        "upperConformal": 140.7,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T03:00:00",
+        "minutes": 300,
+        "predictedGlucose": 109.9,
+        "lowerConformal": 72.3,
+        "upperConformal": 147.5,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T03:15:00",
+        "minutes": 315,
+        "predictedGlucose": 114.3,
+        "lowerConformal": 76.7,
+        "upperConformal": 151.9,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T03:30:00",
+        "minutes": 330,
+        "predictedGlucose": 115.6,
+        "lowerConformal": 78.0,
+        "upperConformal": 153.2,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T03:45:00",
+        "minutes": 345,
+        "predictedGlucose": 118.1,
+        "lowerConformal": 80.5,
+        "upperConformal": 155.7,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T04:00:00",
+        "minutes": 360,
+        "predictedGlucose": 128.3,
+        "lowerConformal": 90.7,
+        "upperConformal": 165.9,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T04:15:00",
+        "minutes": 375,
+        "predictedGlucose": 134.3,
+        "lowerConformal": 96.7,
+        "upperConformal": 171.9,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T04:30:00",
+        "minutes": 390,
+        "predictedGlucose": 133.0,
+        "lowerConformal": 95.4,
+        "upperConformal": 170.6,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T04:45:00",
+        "minutes": 405,
+        "predictedGlucose": 137.7,
+        "lowerConformal": 100.1,
+        "upperConformal": 175.3,
+        "persistenceBaseline": 88.2
+      },
+      {
+        "timestamp": "2022-01-15T05:00:00",
+        "minutes": 420,
+        "predictedGlucose": 137.6,
+        "lowerConformal": 100.0,
+        "upperConformal": 175.2,
+        "persistenceBaseline": 88.2
+      }
+    ],
+    "shapFactors": [
+      {
+        "feature": "hist_nights_since_last_low",
+        "label": "Recent Hypoglycemia History",
+        "value": "99 nights ago",
+        "impact": -0.15,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "cgm_bedtime",
+        "label": "Bedtime CGM Reading",
+        "value": "88.2 mg/dL",
+        "impact": 0.209,
+        "direction": "INCREASES_RISK"
+      },
+      {
+        "feature": "cgm_slope_3h",
+        "label": "3-Hour Glycemic Momentum",
+        "value": "-4.9 mg/dL/hr",
+        "impact": 0.049,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "su_therapy",
+        "label": "Sulfonylurea Regimen (none)",
+        "value": "0 mg",
+        "impact": -0.05,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "hist_personal_median_nadir",
+        "label": "Historical Nocturnal Nadir",
+        "value": "84.6 mg/dL",
+        "impact": 0.022,
+        "direction": "DECREASES_RISK"
+      }
+    ],
+    "clinicalSummary": {
+      "headline": "Stable Nocturnal Profile (4.1% calibrated probability)",
+      "riskLevel": "Low Risk",
+      "calibratedProbabilityPct": 4.1,
+      "operatingPointContext": "Calibrated against 10.5% cohort prevalence. At 80% operational specificity, model PPV is 30.6% (NNW = 3.27, Alert Burden = 1.8 alerts/pt-week).",
+      "primaryDrivers": [
+        "Low bedtime glucose entry point (88.2 mg/dL).",
+        "Concurrent exogenous insulin therapy increasing overnight vulnerability."
+      ],
+      "recommendedAction": "Standard bedtime monitoring routine. No acute bedtime carbohydrate supplementation required.",
+      "disclaimer": "Decision support prototype for academic clinical evaluation. Not an approved medical device. What-if projections represent physiological hypotheses."
+    },
+    "isColdStart": false,
+    "priorNightLow": false,
+    "priorLowCount": 0,
+    "nightsSinceLastLow": 99,
+    "personalMedianNadir": 84.6,
+    "riskModelUsed": "CGM_AND_PATIENT_HISTORY",
+    "fallbackForecastType": null
+  },
+  {
+    "patientId": "2010",
+    "nightDate": "2022-01-15",
+    "bedtimeGlucose": 113.4,
+    "bedtimeSlope1h": 27.4,
+    "bedtimeSlope3h": -0.8,
+    "calibratedRisk": 0.044,
+    "riskTier": "LOW",
+    "actualGroundTruthStrictLow": false,
+    "actualGroundTruthNadir": 82.8,
+    "cgmSeries": [
+      {
+        "timestamp": "2022-01-14T22:14:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T22:29:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T22:44:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T22:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T23:14:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T23:29:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T23:44:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-14T23:59:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T00:14:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T00:29:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T00:44:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T00:59:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T01:14:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T01:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T01:44:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T01:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T02:14:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T02:29:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T02:44:00",
+        "glucose": 111.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T02:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T03:14:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T03:29:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T03:44:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T03:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T04:14:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T04:29:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T04:44:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T04:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T05:14:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T05:29:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T05:44:00",
+        "glucose": 118.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T05:59:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T06:14:00",
+        "glucose": 122.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T06:29:00",
+        "glucose": 131.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T06:44:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T06:59:00",
+        "glucose": 160.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T07:14:00",
+        "glucose": 203.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T07:29:00",
+        "glucose": 232.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T07:44:00",
+        "glucose": 228.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T07:59:00",
+        "glucose": 210.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T08:14:00",
+        "glucose": 185.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T08:29:00",
+        "glucose": 163.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T08:44:00",
+        "glucose": 142.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T08:59:00",
+        "glucose": 124.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T09:14:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T09:29:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T09:44:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T09:59:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T10:14:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T10:29:00",
+        "glucose": 79.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T10:44:00",
+        "glucose": 75.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T10:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T11:14:00",
+        "glucose": 140.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T11:29:00",
+        "glucose": 165.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T11:44:00",
+        "glucose": 154.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T11:59:00",
+        "glucose": 138.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T12:14:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T12:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T12:44:00",
+        "glucose": 90.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T12:59:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T13:14:00",
+        "glucose": 79.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T13:29:00",
+        "glucose": 73.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T13:44:00",
+        "glucose": 73.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T13:59:00",
+        "glucose": 82.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T14:14:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T14:29:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T14:44:00",
+        "glucose": 115.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T14:59:00",
+        "glucose": 122.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T15:14:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T15:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T15:44:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T15:59:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T16:14:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T16:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T16:44:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T16:59:00",
+        "glucose": 111.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T17:14:00",
+        "glucose": 154.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T17:29:00",
+        "glucose": 198.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T17:44:00",
+        "glucose": 198.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T17:59:00",
+        "glucose": 181.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T18:14:00",
+        "glucose": 167.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T18:29:00",
+        "glucose": 149.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T18:44:00",
+        "glucose": 133.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T18:59:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T19:14:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T19:29:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T19:44:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T19:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T20:14:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T20:29:00",
+        "glucose": 82.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T20:44:00",
+        "glucose": 82.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T20:59:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T21:14:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T21:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T21:44:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T21:59:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T22:14:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T22:29:00",
+        "glucose": 99.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T22:44:00",
+        "glucose": 95.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T22:59:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T23:14:00",
+        "glucose": 113.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T23:29:00",
+        "glucose": 118.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T23:44:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-15T23:59:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T00:14:00",
+        "glucose": 99.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T00:29:00",
+        "glucose": 91.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T00:44:00",
+        "glucose": 84.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T00:59:00",
+        "glucose": 82.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T01:14:00",
+        "glucose": 91.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T01:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T01:44:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T01:59:00",
+        "glucose": 100.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T02:14:00",
+        "glucose": 99.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T02:29:00",
+        "glucose": 95.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T02:44:00",
+        "glucose": 97.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T02:59:00",
+        "glucose": 99.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T03:14:00",
+        "glucose": 97.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T03:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T03:44:00",
+        "glucose": 100.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T03:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T04:14:00",
+        "glucose": 97.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T04:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T04:44:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T04:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T05:14:00",
+        "glucose": 113.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T05:29:00",
+        "glucose": 111.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T05:44:00",
+        "glucose": 111.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T05:59:00",
+        "glucose": 115.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T06:14:00",
+        "glucose": 120.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T06:29:00",
+        "glucose": 126.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T06:44:00",
+        "glucose": 142.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T06:59:00",
+        "glucose": 174.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T07:14:00",
+        "glucose": 208.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T07:29:00",
+        "glucose": 230.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T07:44:00",
+        "glucose": 226.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T07:59:00",
+        "glucose": 201.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      }
+    ],
+    "twinForecast": [
+      {
+        "timestamp": "2022-01-15T22:00:00",
+        "minutes": 0,
+        "predictedGlucose": 113.4,
+        "lowerConformal": 75.8,
+        "upperConformal": 151.0,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-15T22:15:00",
+        "minutes": 15,
+        "predictedGlucose": 112.9,
+        "lowerConformal": 75.3,
+        "upperConformal": 150.5,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-15T22:30:00",
+        "minutes": 30,
+        "predictedGlucose": 111.8,
+        "lowerConformal": 74.2,
+        "upperConformal": 149.4,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-15T22:45:00",
+        "minutes": 45,
+        "predictedGlucose": 113.4,
+        "lowerConformal": 75.8,
+        "upperConformal": 151.0,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-15T23:00:00",
+        "minutes": 60,
+        "predictedGlucose": 115.0,
+        "lowerConformal": 77.4,
+        "upperConformal": 152.6,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-15T23:15:00",
+        "minutes": 75,
+        "predictedGlucose": 113.8,
+        "lowerConformal": 76.2,
+        "upperConformal": 151.4,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-15T23:30:00",
+        "minutes": 90,
+        "predictedGlucose": 113.0,
+        "lowerConformal": 75.4,
+        "upperConformal": 150.6,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-15T23:45:00",
+        "minutes": 105,
+        "predictedGlucose": 107.7,
+        "lowerConformal": 70.1,
+        "upperConformal": 145.3,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T00:00:00",
+        "minutes": 120,
+        "predictedGlucose": 108.6,
+        "lowerConformal": 71.0,
+        "upperConformal": 146.2,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T00:15:00",
+        "minutes": 135,
+        "predictedGlucose": 115.4,
+        "lowerConformal": 77.8,
+        "upperConformal": 153.0,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T00:30:00",
+        "minutes": 150,
+        "predictedGlucose": 114.9,
+        "lowerConformal": 77.3,
+        "upperConformal": 152.5,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T00:45:00",
+        "minutes": 165,
+        "predictedGlucose": 114.8,
+        "lowerConformal": 77.2,
+        "upperConformal": 152.4,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T01:00:00",
+        "minutes": 180,
+        "predictedGlucose": 114.3,
+        "lowerConformal": 76.7,
+        "upperConformal": 151.9,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T01:15:00",
+        "minutes": 195,
+        "predictedGlucose": 115.5,
+        "lowerConformal": 77.9,
+        "upperConformal": 153.1,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T01:30:00",
+        "minutes": 210,
+        "predictedGlucose": 117.1,
+        "lowerConformal": 79.5,
+        "upperConformal": 154.7,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T01:45:00",
+        "minutes": 225,
+        "predictedGlucose": 119.7,
+        "lowerConformal": 82.1,
+        "upperConformal": 157.3,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T02:00:00",
+        "minutes": 240,
+        "predictedGlucose": 115.0,
+        "lowerConformal": 77.4,
+        "upperConformal": 152.6,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T02:15:00",
+        "minutes": 255,
+        "predictedGlucose": 108.0,
+        "lowerConformal": 70.4,
+        "upperConformal": 145.6,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T02:30:00",
+        "minutes": 270,
+        "predictedGlucose": 106.9,
+        "lowerConformal": 69.3,
+        "upperConformal": 144.5,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T02:45:00",
+        "minutes": 285,
+        "predictedGlucose": 111.2,
+        "lowerConformal": 73.6,
+        "upperConformal": 148.8,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T03:00:00",
+        "minutes": 300,
+        "predictedGlucose": 115.4,
+        "lowerConformal": 77.8,
+        "upperConformal": 153.0,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T03:15:00",
+        "minutes": 315,
+        "predictedGlucose": 117.4,
+        "lowerConformal": 79.8,
+        "upperConformal": 155.0,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T03:30:00",
+        "minutes": 330,
+        "predictedGlucose": 118.9,
+        "lowerConformal": 81.3,
+        "upperConformal": 156.5,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T03:45:00",
+        "minutes": 345,
+        "predictedGlucose": 120.4,
+        "lowerConformal": 82.8,
+        "upperConformal": 158.0,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T04:00:00",
+        "minutes": 360,
+        "predictedGlucose": 127.8,
+        "lowerConformal": 90.2,
+        "upperConformal": 165.4,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T04:15:00",
+        "minutes": 375,
+        "predictedGlucose": 132.0,
+        "lowerConformal": 94.4,
+        "upperConformal": 169.6,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T04:30:00",
+        "minutes": 390,
+        "predictedGlucose": 129.8,
+        "lowerConformal": 92.2,
+        "upperConformal": 167.4,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T04:45:00",
+        "minutes": 405,
+        "predictedGlucose": 133.1,
+        "lowerConformal": 95.5,
+        "upperConformal": 170.7,
+        "persistenceBaseline": 113.4
+      },
+      {
+        "timestamp": "2022-01-16T05:00:00",
+        "minutes": 420,
+        "predictedGlucose": 133.6,
+        "lowerConformal": 96.0,
+        "upperConformal": 171.2,
+        "persistenceBaseline": 113.4
+      }
+    ],
+    "shapFactors": [
+      {
+        "feature": "hist_nights_since_last_low",
+        "label": "Recent Hypoglycemia History",
+        "value": "99 nights ago",
+        "impact": -0.15,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "cgm_bedtime",
+        "label": "Bedtime CGM Reading",
+        "value": "113.4 mg/dL",
+        "impact": 0.083,
+        "direction": "INCREASES_RISK"
+      },
+      {
+        "feature": "cgm_slope_3h",
+        "label": "3-Hour Glycemic Momentum",
+        "value": "-0.8 mg/dL/hr",
+        "impact": 0.008,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "su_therapy",
+        "label": "Sulfonylurea Regimen (none)",
+        "value": "0 mg",
+        "impact": -0.05,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "hist_personal_median_nadir",
+        "label": "Historical Nocturnal Nadir",
+        "value": "86.4 mg/dL",
+        "impact": 0.014,
+        "direction": "DECREASES_RISK"
+      }
+    ],
+    "clinicalSummary": {
+      "headline": "Stable Nocturnal Profile (4.4% calibrated probability)",
+      "riskLevel": "Low Risk",
+      "calibratedProbabilityPct": 4.4,
+      "operatingPointContext": "Calibrated against 10.5% cohort prevalence. At 80% operational specificity, model PPV is 30.6% (NNW = 3.27, Alert Burden = 1.8 alerts/pt-week).",
+      "primaryDrivers": [
+        "Concurrent exogenous insulin therapy increasing overnight vulnerability."
+      ],
+      "recommendedAction": "Standard bedtime monitoring routine. No acute bedtime carbohydrate supplementation required.",
+      "disclaimer": "Decision support prototype for academic clinical evaluation. Not an approved medical device. What-if projections represent physiological hypotheses."
+    },
+    "isColdStart": false,
+    "priorNightLow": false,
+    "priorLowCount": 0,
+    "nightsSinceLastLow": 99,
+    "personalMedianNadir": 86.4,
+    "riskModelUsed": "CGM_AND_PATIENT_HISTORY",
+    "fallbackForecastType": null
+  },
+  {
+    "patientId": "2010",
+    "nightDate": "2022-01-16",
+    "bedtimeGlucose": 115.2,
+    "bedtimeSlope1h": 20.9,
+    "bedtimeSlope3h": 8.2,
+    "calibratedRisk": 0.038,
+    "riskTier": "LOW",
+    "actualGroundTruthStrictLow": false,
+    "actualGroundTruthNadir": 102.6,
+    "cgmSeries": [
+      {
+        "timestamp": "2022-01-15T22:14:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T22:29:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T22:44:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T22:59:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T23:14:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T23:29:00",
+        "glucose": 118.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T23:44:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-15T23:59:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T00:14:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T00:29:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T00:44:00",
+        "glucose": 84.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T00:59:00",
+        "glucose": 82.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T01:14:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T01:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T01:44:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T01:59:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T02:14:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T02:29:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T02:44:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T02:59:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T03:14:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T03:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T03:44:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T03:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T04:14:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T04:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T04:44:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T04:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T05:14:00",
+        "glucose": 113.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T05:29:00",
+        "glucose": 111.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T05:44:00",
+        "glucose": 111.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T05:59:00",
+        "glucose": 115.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T06:14:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T06:29:00",
+        "glucose": 126.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T06:44:00",
+        "glucose": 142.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T06:59:00",
+        "glucose": 174.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T07:14:00",
+        "glucose": 208.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T07:29:00",
+        "glucose": 230.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T07:44:00",
+        "glucose": 226.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T07:59:00",
+        "glucose": 201.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T08:14:00",
+        "glucose": 172.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T08:29:00",
+        "glucose": 149.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T08:44:00",
+        "glucose": 131.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T08:59:00",
+        "glucose": 118.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T09:14:00",
+        "glucose": 108.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T09:29:00",
+        "glucose": 102.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T09:44:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T09:59:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T10:14:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T10:29:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T10:44:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T10:59:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T11:14:00",
+        "glucose": 111.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T11:29:00",
+        "glucose": 122.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T11:44:00",
+        "glucose": 115.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T11:59:00",
+        "glucose": 104.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T12:14:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T12:29:00",
+        "glucose": 99.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T12:44:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T12:59:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T13:14:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T13:29:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T13:44:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T13:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T14:14:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T14:29:00",
+        "glucose": 90.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T14:44:00",
+        "glucose": 91.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T14:59:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T15:14:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T15:29:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T15:44:00",
+        "glucose": 115.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T15:59:00",
+        "glucose": 124.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T16:14:00",
+        "glucose": 127.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T16:29:00",
+        "glucose": 133.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T16:44:00",
+        "glucose": 140.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T16:59:00",
+        "glucose": 158.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T17:14:00",
+        "glucose": 183.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T17:29:00",
+        "glucose": 187.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T17:44:00",
+        "glucose": 171.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T17:59:00",
+        "glucose": 147.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T18:14:00",
+        "glucose": 129.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T18:29:00",
+        "glucose": 120.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T18:44:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T18:59:00",
+        "glucose": 97.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T19:14:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T19:29:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T19:44:00",
+        "glucose": 95.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T19:59:00",
+        "glucose": 90.0,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T20:14:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T20:29:00",
+        "glucose": 86.4,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T20:44:00",
+        "glucose": 88.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T20:59:00",
+        "glucose": 93.6,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T21:14:00",
+        "glucose": 100.8,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T21:29:00",
+        "glucose": 106.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T21:44:00",
+        "glucose": 115.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T21:59:00",
+        "glucose": 115.2,
+        "isPostAnchor": false,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T22:14:00",
+        "glucose": 120.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T22:29:00",
+        "glucose": 133.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T22:44:00",
+        "glucose": 145.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T22:59:00",
+        "glucose": 149.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-16T23:14:00",
+        "glucose": 154.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T23:29:00",
+        "glucose": 163.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T23:44:00",
+        "glucose": 162.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-16T23:59:00",
+        "glucose": 160.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T00:14:00",
+        "glucose": 162.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T00:29:00",
+        "glucose": 156.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T00:44:00",
+        "glucose": 145.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T00:59:00",
+        "glucose": 136.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T01:14:00",
+        "glucose": 124.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T01:29:00",
+        "glucose": 111.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T01:44:00",
+        "glucose": 115.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T01:59:00",
+        "glucose": 120.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T02:14:00",
+        "glucose": 117.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T02:29:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T02:44:00",
+        "glucose": 108.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T02:59:00",
+        "glucose": 108.0,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T03:14:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T03:29:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T03:44:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T03:59:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T04:14:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T04:29:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T04:44:00",
+        "glucose": 102.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T04:59:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T05:14:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T05:29:00",
+        "glucose": 104.4,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T05:44:00",
+        "glucose": 106.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T05:59:00",
+        "glucose": 109.8,
+        "isPostAnchor": true,
+        "isNocturnalWindow": true
+      },
+      {
+        "timestamp": "2022-01-17T06:14:00",
+        "glucose": 120.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-17T06:29:00",
+        "glucose": 129.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-17T06:44:00",
+        "glucose": 129.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-17T06:59:00",
+        "glucose": 147.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-17T07:14:00",
+        "glucose": 201.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-17T07:29:00",
+        "glucose": 237.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-17T07:44:00",
+        "glucose": 223.2,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      },
+      {
+        "timestamp": "2022-01-17T07:59:00",
+        "glucose": 192.6,
+        "isPostAnchor": true,
+        "isNocturnalWindow": false
+      }
+    ],
+    "twinForecast": [
+      {
+        "timestamp": "2022-01-16T22:00:00",
+        "minutes": 0,
+        "predictedGlucose": 115.2,
+        "lowerConformal": 77.6,
+        "upperConformal": 152.8,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-16T22:15:00",
+        "minutes": 15,
+        "predictedGlucose": 112.8,
+        "lowerConformal": 75.2,
+        "upperConformal": 150.4,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-16T22:30:00",
+        "minutes": 30,
+        "predictedGlucose": 110.8,
+        "lowerConformal": 73.2,
+        "upperConformal": 148.4,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-16T22:45:00",
+        "minutes": 45,
+        "predictedGlucose": 111.3,
+        "lowerConformal": 73.7,
+        "upperConformal": 148.9,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-16T23:00:00",
+        "minutes": 60,
+        "predictedGlucose": 113.8,
+        "lowerConformal": 76.2,
+        "upperConformal": 151.4,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-16T23:15:00",
+        "minutes": 75,
+        "predictedGlucose": 114.9,
+        "lowerConformal": 77.3,
+        "upperConformal": 152.5,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-16T23:30:00",
+        "minutes": 90,
+        "predictedGlucose": 115.3,
+        "lowerConformal": 77.7,
+        "upperConformal": 152.9,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-16T23:45:00",
+        "minutes": 105,
+        "predictedGlucose": 109.2,
+        "lowerConformal": 71.6,
+        "upperConformal": 146.8,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T00:00:00",
+        "minutes": 120,
+        "predictedGlucose": 108.4,
+        "lowerConformal": 70.8,
+        "upperConformal": 146.0,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T00:15:00",
+        "minutes": 135,
+        "predictedGlucose": 113.0,
+        "lowerConformal": 75.4,
+        "upperConformal": 150.6,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T00:30:00",
+        "minutes": 150,
+        "predictedGlucose": 111.1,
+        "lowerConformal": 73.5,
+        "upperConformal": 148.7,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T00:45:00",
+        "minutes": 165,
+        "predictedGlucose": 109.5,
+        "lowerConformal": 71.9,
+        "upperConformal": 147.1,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T01:00:00",
+        "minutes": 180,
+        "predictedGlucose": 108.7,
+        "lowerConformal": 71.1,
+        "upperConformal": 146.3,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T01:15:00",
+        "minutes": 195,
+        "predictedGlucose": 111.4,
+        "lowerConformal": 73.8,
+        "upperConformal": 149.0,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T01:30:00",
+        "minutes": 210,
+        "predictedGlucose": 114.9,
+        "lowerConformal": 77.3,
+        "upperConformal": 152.5,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T01:45:00",
+        "minutes": 225,
+        "predictedGlucose": 116.8,
+        "lowerConformal": 79.2,
+        "upperConformal": 154.4,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T02:00:00",
+        "minutes": 240,
+        "predictedGlucose": 112.7,
+        "lowerConformal": 75.1,
+        "upperConformal": 150.3,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T02:15:00",
+        "minutes": 255,
+        "predictedGlucose": 106.7,
+        "lowerConformal": 69.1,
+        "upperConformal": 144.3,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T02:30:00",
+        "minutes": 270,
+        "predictedGlucose": 105.1,
+        "lowerConformal": 67.5,
+        "upperConformal": 142.7,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T02:45:00",
+        "minutes": 285,
+        "predictedGlucose": 108.8,
+        "lowerConformal": 71.2,
+        "upperConformal": 146.4,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T03:00:00",
+        "minutes": 300,
+        "predictedGlucose": 112.5,
+        "lowerConformal": 74.9,
+        "upperConformal": 150.1,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T03:15:00",
+        "minutes": 315,
+        "predictedGlucose": 113.7,
+        "lowerConformal": 76.1,
+        "upperConformal": 151.3,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T03:30:00",
+        "minutes": 330,
+        "predictedGlucose": 115.6,
+        "lowerConformal": 78.0,
+        "upperConformal": 153.2,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T03:45:00",
+        "minutes": 345,
+        "predictedGlucose": 116.8,
+        "lowerConformal": 79.2,
+        "upperConformal": 154.4,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T04:00:00",
+        "minutes": 360,
+        "predictedGlucose": 121.9,
+        "lowerConformal": 84.3,
+        "upperConformal": 159.5,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T04:15:00",
+        "minutes": 375,
+        "predictedGlucose": 125.3,
+        "lowerConformal": 87.7,
+        "upperConformal": 162.9,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T04:30:00",
+        "minutes": 390,
+        "predictedGlucose": 124.6,
+        "lowerConformal": 87.0,
+        "upperConformal": 162.2,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T04:45:00",
+        "minutes": 405,
+        "predictedGlucose": 127.6,
+        "lowerConformal": 90.0,
+        "upperConformal": 165.2,
+        "persistenceBaseline": 115.2
+      },
+      {
+        "timestamp": "2022-01-17T05:00:00",
+        "minutes": 420,
+        "predictedGlucose": 129.1,
+        "lowerConformal": 91.5,
+        "upperConformal": 166.7,
+        "persistenceBaseline": 115.2
+      }
+    ],
+    "shapFactors": [
+      {
+        "feature": "hist_nights_since_last_low",
+        "label": "Recent Hypoglycemia History",
+        "value": "99 nights ago",
+        "impact": -0.15,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "cgm_bedtime",
+        "label": "Bedtime CGM Reading",
+        "value": "115.2 mg/dL",
+        "impact": 0.074,
+        "direction": "INCREASES_RISK"
+      },
+      {
+        "feature": "cgm_slope_3h",
+        "label": "3-Hour Glycemic Momentum",
+        "value": "8.2 mg/dL/hr",
+        "impact": -0.082,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "su_therapy",
+        "label": "Sulfonylurea Regimen (none)",
+        "value": "0 mg",
+        "impact": -0.05,
+        "direction": "DECREASES_RISK"
+      },
+      {
+        "feature": "hist_personal_median_nadir",
+        "label": "Historical Nocturnal Nadir",
+        "value": "84.6 mg/dL",
+        "impact": 0.022,
+        "direction": "DECREASES_RISK"
+      }
+    ],
+    "clinicalSummary": {
+      "headline": "Stable Nocturnal Profile (3.8% calibrated probability)",
+      "riskLevel": "Low Risk",
+      "calibratedProbabilityPct": 3.8,
+      "operatingPointContext": "Calibrated against 10.5% cohort prevalence. At 80% operational specificity, model PPV is 30.6% (NNW = 3.27, Alert Burden = 1.8 alerts/pt-week).",
+      "primaryDrivers": [
+        "Concurrent exogenous insulin therapy increasing overnight vulnerability."
+      ],
+      "recommendedAction": "Standard bedtime monitoring routine. No acute bedtime carbohydrate supplementation required.",
+      "disclaimer": "Decision support prototype for academic clinical evaluation. Not an approved medical device. What-if projections represent physiological hypotheses."
+    },
+    "isColdStart": false,
+    "priorNightLow": false,
+    "priorLowCount": 0,
+    "nightsSinceLastLow": 99,
+    "personalMedianNadir": 84.6,
+    "riskModelUsed": "CGM_AND_PATIENT_HISTORY",
+    "fallbackForecastType": null
+  }
+]
