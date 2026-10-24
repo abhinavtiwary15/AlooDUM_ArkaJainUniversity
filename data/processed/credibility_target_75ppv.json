@@ -1,0 +1,46 @@
+[
+  {
+    "model": "LightGBM_B_cgm_only",
+    "achieves_75_ppv": true,
+    "threshold": 0.455,
+    "sens_at_75_ppv": 0.1694,
+    "spec_at_75_ppv": 0.9934,
+    "ppv_achieved": 0.75,
+    "nnw_achieved": 1.33,
+    "required_lr_plus": 25.57,
+    "observed_lr_plus": 25.57
+  },
+  {
+    "model": "LightGBM_D_cgm_meds_small_static",
+    "achieves_75_ppv": true,
+    "threshold": 0.465,
+    "sens_at_75_ppv": 0.129,
+    "spec_at_75_ppv": 0.9962,
+    "ppv_achieved": 0.8,
+    "nnw_achieved": 1.25,
+    "required_lr_plus": 25.57,
+    "observed_lr_plus": 34.1
+  },
+  {
+    "model": "LightGBM_G_cgm_history",
+    "achieves_75_ppv": true,
+    "threshold": 0.475,
+    "sens_at_75_ppv": 0.1774,
+    "spec_at_75_ppv": 0.9943,
+    "ppv_achieved": 0.7857,
+    "nnw_achieved": 1.27,
+    "required_lr_plus": 25.57,
+    "observed_lr_plus": 31.26
+  },
+  {
+    "model": "LightGBM_H_cgm_history_meds_static",
+    "achieves_75_ppv": true,
+    "threshold": 0.475,
+    "sens_at_75_ppv": 0.1532,
+    "spec_at_75_ppv": 0.9943,
+    "ppv_achieved": 0.76,
+    "nnw_achieved": 1.32,
+    "required_lr_plus": 25.57,
+    "observed_lr_plus": 26.99
+  }
+]

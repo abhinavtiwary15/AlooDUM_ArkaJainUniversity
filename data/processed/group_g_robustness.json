@@ -1,0 +1,151 @@
+{
+  "identical_subset_ge1_prior_night": {
+    "auc_a": 0.748,
+    "auc_b": 0.829,
+    "diff_auc": 0.08,
+    "diff_auc_ci": [
+      0.041,
+      0.126
+    ],
+    "prc_a": 0.317,
+    "prc_b": 0.4,
+    "diff_prc": 0.084,
+    "diff_prc_ci": [
+      0.026,
+      0.131
+    ],
+    "brier_a": 0.075,
+    "brier_b": 0.069,
+    "diff_brier": -0.005,
+    "diff_brier_ci": [
+      -0.009,
+      -0.002
+    ]
+  },
+  "event_concentration_sensitivity": {
+    "top1_excluded": {
+      "auc_a": 0.75,
+      "auc_b": 0.822,
+      "diff_auc": 0.072,
+      "diff_auc_ci": [
+        0.035,
+        0.112
+      ],
+      "prc_a": 0.295,
+      "prc_b": 0.367,
+      "diff_prc": 0.072,
+      "diff_prc_ci": [
+        0.016,
+        0.122
+      ],
+      "brier_a": 0.079,
+      "brier_b": 0.074,
+      "diff_brier": -0.005,
+      "diff_brier_ci": [
+        -0.009,
+        -0.002
+      ]
+    },
+    "top2_excluded": {
+      "auc_a": 0.746,
+      "auc_b": 0.817,
+      "diff_auc": 0.071,
+      "diff_auc_ci": [
+        0.031,
+        0.112
+      ],
+      "prc_a": 0.293,
+      "prc_b": 0.358,
+      "diff_prc": 0.065,
+      "diff_prc_ci": [
+        0.01,
+        0.111
+      ],
+      "brier_a": 0.074,
+      "brier_b": 0.07,
+      "diff_brier": -0.004,
+      "diff_brier_ci": [
+        -0.007,
+        -0.001
+      ]
+    },
+    "top10pct_excluded": {
+      "auc_a": 0.708,
+      "auc_b": 0.773,
+      "diff_auc": 0.065,
+      "diff_auc_ci": [
+        0.012,
+        0.118
+      ],
+      "prc_a": 0.183,
+      "prc_b": 0.188,
+      "diff_prc": 0.004,
+      "diff_prc_ci": [
+        -0.048,
+        0.047
+      ],
+      "brier_a": 0.056,
+      "brier_b": 0.055,
+      "diff_brier": -0.001,
+      "diff_brier_ci": [
+        -0.003,
+        0.002
+      ]
+    }
+  },
+  "stratified_by_prior_nights": [
+    {
+      "bin": "1 prior night",
+      "nights": 100,
+      "events": 10,
+      "event_rate": 10.0,
+      "b_auroc": 0.813,
+      "g_auroc": 0.797,
+      "b_auprc": 0.3,
+      "g_auprc": 0.336
+    },
+    {
+      "bin": "2-3 prior nights",
+      "nights": 197,
+      "events": 18,
+      "event_rate": 9.1,
+      "b_auroc": 0.721,
+      "g_auroc": 0.875,
+      "b_auprc": 0.283,
+      "g_auprc": 0.435
+    },
+    {
+      "bin": "4+ prior nights",
+      "nights": 784,
+      "events": 73,
+      "event_rate": 9.3,
+      "b_auroc": 0.745,
+      "g_auroc": 0.823,
+      "b_auprc": 0.348,
+      "g_auprc": 0.423
+    }
+  ],
+  "cold_start_night_0": [
+    {
+      "model": "Group B (CGM-only)",
+      "auroc": 0.863,
+      "auprc": 0.673,
+      "brier": 0.146,
+      "bss": 0.177
+    },
+    {
+      "model": "Group C (CGM + Meds)",
+      "auroc": 0.842,
+      "auprc": 0.634,
+      "brier": 0.151,
+      "bss": 0.15
+    },
+    {
+      "model": "Group D (CGM + Meds + Small Static)",
+      "auroc": 0.846,
+      "auprc": 0.653,
+      "brier": 0.149,
+      "bss": 0.156
+    }
+  ]
+}

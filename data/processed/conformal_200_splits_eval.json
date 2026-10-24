@@ -1,0 +1,193 @@
+{
+  "fold_results": [
+    {
+      "fold": 1,
+      "tau_hours": 3.112,
+      "n_train_pts": 80,
+      "n_val_pts": 20,
+      "mae_blend_1h": 15.54,
+      "mae_pers_1h": 20.08,
+      "mae_prof_1h": 28.21,
+      "mae_blend_3h": 21.46,
+      "mae_pers_3h": 40.44,
+      "mae_prof_3h": 25.31,
+      "mae_blend_6h": 20.2,
+      "mae_pers_6h": 48.96,
+      "mae_prof_6h": 21.84
+    },
+    {
+      "fold": 2,
+      "tau_hours": 3.62,
+      "n_train_pts": 80,
+      "n_val_pts": 20,
+      "mae_blend_1h": 14.25,
+      "mae_pers_1h": 18.86,
+      "mae_prof_1h": 18.94,
+      "mae_blend_3h": 18.06,
+      "mae_pers_3h": 31.41,
+      "mae_prof_3h": 17.24,
+      "mae_blend_6h": 15.25,
+      "mae_pers_6h": 31.5,
+      "mae_prof_6h": 15.69
+    },
+    {
+      "fold": 3,
+      "tau_hours": 3.066,
+      "n_train_pts": 81,
+      "n_val_pts": 19,
+      "mae_blend_1h": 15.32,
+      "mae_pers_1h": 18.52,
+      "mae_prof_1h": 25.23,
+      "mae_blend_3h": 22.0,
+      "mae_pers_3h": 31.17,
+      "mae_prof_3h": 24.87,
+      "mae_blend_6h": 18.67,
+      "mae_pers_6h": 34.95,
+      "mae_prof_6h": 20.17
+    },
+    {
+      "fold": 4,
+      "tau_hours": 3.351,
+      "n_train_pts": 80,
+      "n_val_pts": 20,
+      "mae_blend_1h": 18.59,
+      "mae_pers_1h": 20.67,
+      "mae_prof_1h": 28.92,
+      "mae_blend_3h": 24.31,
+      "mae_pers_3h": 31.03,
+      "mae_prof_3h": 27.1,
+      "mae_blend_6h": 20.36,
+      "mae_pers_6h": 38.12,
+      "mae_prof_6h": 21.07
+    },
+    {
+      "fold": 5,
+      "tau_hours": 3.378,
+      "n_train_pts": 79,
+      "n_val_pts": 21,
+      "mae_blend_1h": 13.59,
+      "mae_pers_1h": 15.68,
+      "mae_prof_1h": 20.37,
+      "mae_blend_3h": 17.57,
+      "mae_pers_3h": 26.57,
+      "mae_prof_3h": 19.48,
+      "mae_blend_6h": 15.78,
+      "mae_pers_6h": 31.67,
+      "mae_prof_6h": 16.65
+    }
+  ],
+  "conformal_splits_summary": {
+    "overall_80": {
+      "mean": 79.93,
+      "range": [
+        70.79,
+        86.66
+      ],
+      "ci95": [
+        74.17,
+        85.82
+      ]
+    },
+    "overall_90": {
+      "mean": 89.84,
+      "range": [
+        83.39,
+        94.13
+      ],
+      "ci95": [
+        85.03,
+        93.72
+      ]
+    },
+    "h1_80": {
+      "mean": 84.19,
+      "range": [
+        76.27,
+        90.92
+      ],
+      "ci95": [
+        78.08,
+        89.75
+      ]
+    },
+    "h1_90": {
+      "mean": 93.86,
+      "range": [
+        88.98,
+        97.43
+      ],
+      "ci95": [
+        89.62,
+        96.45
+      ]
+    },
+    "h3_80": {
+      "mean": 75.57,
+      "range": [
+        64.58,
+        83.64
+      ],
+      "ci95": [
+        68.5,
+        82.35
+      ]
+    },
+    "h3_90": {
+      "mean": 86.3,
+      "range": [
+        78.31,
+        92.25
+      ],
+      "ci95": [
+        80.48,
+        91.11
+      ]
+    },
+    "h6_80": {
+      "mean": 80.04,
+      "range": [
+        71.53,
+        86.8
+      ],
+      "ci95": [
+        74.09,
+        86.17
+      ]
+    },
+    "h6_90": {
+      "mean": 89.35,
+      "range": [
+        82.37,
+        94.35
+      ],
+      "ci95": [
+        84.24,
+        93.52
+      ]
+    },
+    "cond_low_80": {
+      "mean": 89.13,
+      "range": [
+        83.11,
+        94.81
+      ],
+      "ci95": [
+        84.99,
+        93.14
+      ]
+    },
+    "cond_low_90": {
+      "mean": 95.18,
+      "range": [
+        91.83,
+        98.07
+      ],
+      "ci95": [
+        92.45,
+        97.21
+      ]
+    },
+    "q80_margin_mean": 28.11,
+    "q90_margin_mean": 41.38
+  }
+}

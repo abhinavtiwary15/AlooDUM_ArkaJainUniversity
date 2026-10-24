@@ -1,0 +1,146 @@
+{
+  "fittedTauHours": 3.305,
+  "conformal": {
+    "margin80MgDl": 26.26,
+    "coverage80Pct": 80.0,
+    "margin90MgDl": 37.59,
+    "coverage90Pct": 90.0
+  },
+  "benchmarks": [
+    {
+      "horizon": "1-Hour (23:00)",
+      "model": "Blended Synchronised Forecaster",
+      "mae": 14.83,
+      "mae_ci": [
+        13.54,
+        16.14
+      ],
+      "rmse": 20.33,
+      "rmse_ci": [
+        18.59,
+        22.01
+      ],
+      "n": 1072
+    },
+    {
+      "horizon": "1-Hour (23:00)",
+      "model": "Patient Hist Overnight Profile",
+      "mae": 24.62,
+      "mae_ci": [
+        22.18,
+        27.07
+      ],
+      "rmse": 33.39,
+      "rmse_ci": [
+        30.16,
+        36.66
+      ],
+      "n": 1072
+    },
+    {
+      "horizon": "1-Hour (23:00)",
+      "model": "Persistence Baseline",
+      "mae": 18.48,
+      "mae_ci": [
+        16.81,
+        20.06
+      ],
+      "rmse": 24.28,
+      "rmse_ci": [
+        22.25,
+        26.02
+      ],
+      "n": 1072
+    },
+    {
+      "horizon": "3-Hour (01:00)",
+      "model": "Blended Synchronised Forecaster",
+      "mae": 19.35,
+      "mae_ci": [
+        17.32,
+        21.39
+      ],
+      "rmse": 27.32,
+      "rmse_ci": [
+        24.31,
+        30.12
+      ],
+      "n": 1071
+    },
+    {
+      "horizon": "3-Hour (01:00)",
+      "model": "Patient Hist Overnight Profile",
+      "mae": 21.69,
+      "mae_ci": [
+        19.38,
+        24.22
+      ],
+      "rmse": 30.74,
+      "rmse_ci": [
+        27.6,
+        33.68
+      ],
+      "n": 1071
+    },
+    {
+      "horizon": "3-Hour (01:00)",
+      "model": "Persistence Baseline",
+      "mae": 31.97,
+      "mae_ci": [
+        28.5,
+        35.54
+      ],
+      "rmse": 43.07,
+      "rmse_ci": [
+        38.17,
+        47.75
+      ],
+      "n": 1071
+    },
+    {
+      "horizon": "6-Hour (04:00)",
+      "model": "Blended Synchronised Forecaster",
+      "mae": 16.05,
+      "mae_ci": [
+        14.21,
+        17.91
+      ],
+      "rmse": 22.78,
+      "rmse_ci": [
+        20.03,
+        25.43
+      ],
+      "n": 1071
+    },
+    {
+      "horizon": "6-Hour (04:00)",
+      "model": "Patient Hist Overnight Profile",
+      "mae": 17.18,
+      "mae_ci": [
+        15.24,
+        19.13
+      ],
+      "rmse": 24.03,
+      "rmse_ci": [
+        21.36,
+        26.54
+      ],
+      "n": 1071
+    },
+    {
+      "horizon": "6-Hour (04:00)",
+      "model": "Persistence Baseline",
+      "mae": 36.98,
+      "mae_ci": [
+        32.38,
+        42.02
+      ],
+      "rmse": 50.02,
+      "rmse_ci": [
+        43.3,
+        56.71
+      ],
+      "n": 1071
+    }
+  ]
+}
