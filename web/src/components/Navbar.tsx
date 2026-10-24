@@ -27,7 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => onSelectTab('home')}
             className="flex items-center space-x-2.5 text-left focus-visible:outline-white"
           >
-            {/* Logo Mark: matching the minimal sparkline mark from screenshots */}
+            {/* Logo Mark: minimal sparkline brand icon */}
             <div className="w-6 h-6 bg-white text-[#1B1E4A] flex items-center justify-center rounded-[2px] font-mono text-xs font-bold leading-none select-none">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
                 <rect x="2" y="3" width="2.5" height="10" rx="0.5" />
