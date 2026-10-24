@@ -4,7 +4,7 @@
 - **Project:** NoctTwin: a personalised digital twin for nocturnal hypoglycemia in type 2 diabetes
 - **Team:** AlooDUM
 - **College:** Arka Jain University, Jamshedpur
-- **Members:** Nivesh Kumar · Kriti Kumari · Bhoomi Singh
+- **Members:** Nivesh Kumar · Kriti Kumari · Bhoomi Singh · Abhinav Tiwary
 - **Team Leader:** Abhinav Tiwary
 - **Competition:** Happiest Health Digital Twin Challenge 2026
 
